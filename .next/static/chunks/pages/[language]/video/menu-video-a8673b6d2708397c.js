@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[3369],{1205:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/[language]/video/menu-video",function(){return _(8017)}])}},function(n){n.O(0,[8017,9774,2888,179],(function(){return u=1205,n(n.s=u);var u}));var u=n.O();_N_E=u}]);
