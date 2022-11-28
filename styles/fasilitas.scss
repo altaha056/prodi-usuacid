@@ -1,0 +1,341 @@
+.fasilitas {
+  text-align: center;
+  h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: $color-black;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    line-height: 72px;
+    @media only screen and (max-width: 1400px) {
+      font-size: 48px;
+      line-height: 54px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-black;
+    line-height: 42px;
+    @media only screen and (max-width: 1100px) {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $color-black;
+    line-height: 40px;
+    @media only screen and (max-width: 600px) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  h4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: $color-black;
+    line-height: 32px;
+    @media only screen and (max-width: 1100px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: $color-black;
+    line-height: 30px;
+    @media only screen and (max-width: 1000px) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  p {
+    font-size: 22px;
+    line-height: 38px;
+    color: $color-black;
+    font-weight: 500;
+    @media only screen and (max-width: 1400px) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-black;
+    font-weight: 400;
+  }
+  button {
+    padding: 12px 32px;
+    min-width: 320px;
+    border: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    span {
+      float: right;
+    }
+    @media only screen and (max-width: 1400px) {
+      font-size: 14px;
+      min-width: 240px;
+    }
+  }
+  .btn-red {
+    background-color: #ff0000;
+    color: $color-white;
+  }
+  .btn-green {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  .btn-yellow {
+    background-color: $color-secondary;
+    color: $color-black;
+  }
+  .img-hero {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  .second-hero {
+    margin-top: -20px;
+    padding: 60px 20%;
+    background-color: $color-secondary;
+    @media only screen and (max-width: 1000px) {
+      padding: 60px 5%;
+    }
+    button,
+    p,
+    h1,
+    h5 {
+      margin: 12px auto;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+  .header-image {
+    position: relative;
+    img {
+      object-fit: cover;
+      width: 100%;
+      max-height: 100vh;
+    }
+    .banner {
+      position: absolute;
+      bottom: -48px;
+      left: 120px;
+      background-color: $color-secondary;
+      padding: 18px 120px;
+      @media only screen and (max-width: 1100px) {
+        padding: 18px 0;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      @media only screen and (max-width: 700px) {
+        padding: 8px 0 !important;
+      }
+      h1 {
+        color: $color-black;
+      }
+    }
+  }
+
+  .daftar-fasilitas {
+    margin: 100px 0px;
+    h2 {
+      margin: 50px 0px;
+    }
+    .gallery-image {
+      padding: 20px;
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .item-list {
+      height: 324;
+      width: 384px;
+      margin: 20px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+      gap: 10px;
+    }
+
+    .img-box {
+      box-sizing: content-box;
+      height: 260px;
+      width: 100%;
+      overflow: hidden;
+      display: inline-block;
+      color: white;
+      position: relative;
+      background-color: white;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .caption-box {
+      height: 54px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #006633;
+      font-weight: 600;
+    }
+
+    .caption-box:hover {
+      background-color: #ffc107;
+      color: black;
+      cursor: pointer;
+    }
+  }
+
+  .detail-fasilitas {
+    .box-item-fasilitas {
+      max-width: 1440px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 140px;
+      margin-bottom: 140px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .item-list {
+      height: auto;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-content: space-between;
+    }
+
+    .img-box {
+      box-sizing: content-box;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      display: inline-block;
+      color: white;
+      position: relative;
+      background-color: white;
+    }
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .caption-box {
+      height: 100%;
+      width: 100%;
+      align-items: center;
+      text-align: left;
+      color: black;
+      padding: 40px 40px;
+      background-color: #ffc107;
+
+      .button-green {
+        height: auto;
+        padding: 10px 0px;
+        width: 240px;
+        color: white;
+        background-color: #006633;
+        font-weight: 500;
+        margin-top: 40px;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 10px;
+      }
+    }
+
+    .judul {
+      margin-top: 40px;
+    }
+  }
+
+  .contactus {
+    background-image: url('../public/images/pattern-design-usu-05.jpg');
+    padding: 90px 10%;
+    text-align: center;
+    color: $color-white;
+    h1,
+    p {
+      color: $color-white;
+    }
+    @media only screen and (max-width: 780px) {
+      padding: 40px 10%;
+    }
+    h1 {
+      padding-bottom: 32px;
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 24px 0;
+      color: $color-white;
+      background-color: $color-secondary;
+      padding: 10px 50px;
+      border: none;
+      border-radius: 4px;
+      margin: 24px auto;
+      .material-icons {
+        margin-right: 12px;
+      }
+    }
+  }
+}

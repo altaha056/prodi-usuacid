@@ -1,0 +1,424 @@
+{
+    "main_image": "/images/calon-mahasiswa-head.jpg",
+    "program_pendidikan": [
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Program Vokasi"
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Program Sarjana"
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Program Pascasarjana"
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Program Profesi"
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Program Internasional"
+        }
+    ],
+    "fakultas": [
+        {
+            "name": "Fakultas Kedokteran",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Hukum",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Pertanian",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Teknik",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Ekonomi dan Bisnis",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Kedokteran Gigi",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Ilmu Budaya",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Matematikan dan Ilmu Pengetahuan Alam",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Ilmu Sosial dan Ilmu Politik",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Kesehatan Masyarakat",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Keperawatan",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Psikologi",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Farmasi",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Ilmu Komputer dan Teknologi Informasi",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Fakultas Kehutanan",
+            "image": "/images/kedokteran/doctors.jpg"
+        },
+        {
+            "name": "Sekolah Pascasarjana",
+            "image": "/images/kedokteran/doctors.jpg"
+        }
+    ],
+    "berita": [
+        {
+            "url": "#",
+            "type": "Kampus Merdeka",
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+            "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister.",
+            "link": [
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                }
+            ]
+        },
+        {
+            "type": "Penelitian",
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+            "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister.",
+            "link": [
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                }
+            ]
+        },
+        {
+            "type": "Pengabdian Masyarakat",
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+            "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister.",
+            "link": [
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                },
+                {
+                    "url": "#",
+                    "image": "/images/kedokteran/doctors.jpg",
+                    "title": "HK Haibin China dan USU Pertukaran Mahasiswa",
+                    "description": "R III mengatakan, kerja sama antara kedua belah pihak ini bertujuan untuk pertukaran mahasiswa antara HK Haibin dan USU di bidang magister."
+                }
+            ]
+        }
+    ],
+    "ukm": [
+        {
+            "icon": "/images/icons/ukm/sports-icon.png",
+            "title": "Bidang Olahraga",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/beladiri-icon.png",
+            "title": "Bidang Bela Diri",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/rohani-icon.png",
+            "title": "Bidang Kerohanian",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/organisasi-icon.png",
+            "title": "Bidang Keorganisasian",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/pkm-icon.png",
+            "title": "Bidang Pekan Kreatif Mahasiswa",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/itikom-icon.png",
+            "title": "Bidang Inovasi Teknologi Informasi dan Komunikasi (ITIKOM)",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/ulk-icon.png",
+            "title": "Unit Lembaga Kesenian (ULK)",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/debat-icon.png",
+            "title": "Unit Debat Bahasa",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/pengabdian-icon.png",
+            "title": "Unit Pengabdian Masyarakat",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/sec-icon.png",
+            "title": "Student Enterpreunership Center (SEC)",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/upkbm-icon.png",
+            "title": "Bidang Pelayanan Konsultasi dan Bimbingan Mahasiswa (UPKBM)",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        },
+        {
+            "icon": "/images/icons/ukm/jurnalistik-icon.png",
+            "title": "Bidang Jurnalistik",
+            "list": [
+                {
+                    "title": "Sepak Bola",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Basket",
+                    "url": "#"
+                },
+                {
+                    "title": "Bola Voli",
+                    "url": "#"
+                }
+            ]
+        }
+    ],
+    "faq": [
+        {
+            "slug": "durasi-kunjungan",
+            "question": "Berapa lama durasi kunjungan kampus?",
+            "answer": "Sesi kunjungan untuk keliling kampus menghabiskan waktu 120 menit"
+        },
+        {
+            "slug": "pintu-kampus",
+            "question": "Kalau ke kampus masuk dari pintu berapa?",
+            "answer": "Sesi kunjungan untuk keliling kampus menghabiskan waktu 120 menit"
+        },
+        {
+            "slug": "parkir",
+            "question": "Apakah ada fasilitas parkir di lingkungan kampus?",
+            "answer": "Sesi kunjungan untuk keliling kampus menghabiskan waktu 120 menit"
+        }
+    ],
+    "wisata_kota_medan": [
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Rumah Tjong A Fie",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Graha Maria Annai Velangkanni",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        },
+        {
+            "image": "/images/kedokteran/doctors.jpg",
+            "title": "Danau Toba",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ]
+}

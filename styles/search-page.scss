@@ -1,0 +1,18 @@
+.search-page {
+    > .container > .row {
+        > [class*=col] {
+            padding: 20px;
+        }
+    }
+    .gallery-item {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .article-thum {
+            height: 300px;
+        }
+        .schome-study__box {
+            flex-grow: 1;
+        }
+    }
+}

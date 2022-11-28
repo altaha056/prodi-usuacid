@@ -1,0 +1,96 @@
+[
+  {
+    "slug": "fasilitas-umum",
+    "title": "Fasilitas Umum",
+    "fasilitasList": [
+      {
+        "slug": "taman-usu",
+        "name": "Taman USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "auditorium-usu",
+        "name": "Auditorium USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "bus-lintas-usu",
+        "name": "Bus Lintas USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "gedung-pancasila-usu",
+        "name": "Gedung Pancasila USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "laboratorium-terpadu-usu",
+        "name": "Laboratorium Terpadu USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "asrama-mahasiswa-usu",
+        "name": "Asrama Mahasiswa USU",
+        "image": "https://source.unsplash.com/400x400"
+      }
+    ]
+  },
+  {
+    "slug": "fasilitas-kesehatan",
+    "title": "Fasilitas Kesehatan",
+    "fasilitasList": [
+      {
+        "slug": "rumah-sakit-gigi-dan-mulut",
+        "name": "Rumah Sakit Gigi dan Mulut",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "rumah-sakit-usu",
+        "name": "Rumah Sakit USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "poliklinik-usu",
+        "name": "Poliklinik USU",
+        "image": "https://source.unsplash.com/400x400"
+      }
+    ]
+  },
+  {
+    "slug": "fasilitas-olahraga",
+    "title": "Fasilitas Olahraga",
+    "fasilitasList": [
+      {
+        "slug": "stadion-mini-usu",
+        "name": "Stadion Mini USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "track-lari-auditorim-usu",
+        "name": "Track Lari Auditorim USU",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "gedung-olahraga-usu",
+        "name": "Gedung Olahraga USU",
+        "image": "https://source.unsplash.com/400x400"
+      }
+    ]
+  },
+  {
+    "slug": "fasilitas-disabilitas",
+    "title": "Fasilitas Disabilitas",
+    "fasilitasList": [
+      {
+        "slug": "kantor-layanan-disabilitas",
+        "name": "Kantor Layanan Disabilitas",
+        "image": "https://source.unsplash.com/400x400"
+      },
+      {
+        "slug": "fasilitas-kursi-roda",
+        "name": "Fasilitas Kursi Roda",
+        "image": "https://source.unsplash.com/400x400"
+      }
+    ]
+  }
+]

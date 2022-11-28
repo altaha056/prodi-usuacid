@@ -1,0 +1,906 @@
+.kampus-sehat {
+  text-align: center;
+  h1 {
+    font-size: 72px;
+    font-weight: 800;
+    color: $color-black;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 20px;
+    line-height: 72px;
+    @media only screen and (max-width: 1400px) {
+      font-size: 48px;
+      line-height: 54px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: $color-black;
+    line-height: 42px;
+    @media only screen and (max-width: 1100px) {
+      font-size: 32px;
+      line-height: 38px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+  }
+  h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $color-black;
+    line-height: 40px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 28px;
+      line-height: 34px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 24px;
+      line-height: 28px;
+    }
+  }
+  h4 {
+    font-size: 28px;
+    font-weight: 700;
+    color: $color-black;
+    line-height: 32px;
+    @media only screen and (max-width: 1200px) {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  h5 {
+    font-size: 24px;
+    font-weight: 800;
+    color: $color-black;
+    line-height: 30px;
+    @media only screen and (max-width: 1000px) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media only screen and (max-width: 600px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  p {
+    font-size: 22px;
+    line-height: 38px;
+    color: $color-black;
+    font-weight: 500;
+    @media only screen and (max-width: 1400px) {
+      font-size: 20px;
+      line-height: 26px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+      line-height: 22px;
+    }
+    @media only screen and (max-width: 500px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 24px;
+    color: $color-black;
+    font-weight: 400;
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 32px;
+    min-width: 320px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 5%;
+    cursor: pointer;
+    span {
+      width: 85%;
+    }
+    img {
+      width: 10%;
+    }
+    @media only screen and (max-width: 1400px) {
+      min-width: 240px;
+    }
+  }
+  .btn-lg {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .btn-red {
+    background-color: #ff0000;
+    color: $color-white;
+  }
+  .btn-green {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+  .btn-yellow {
+    background-color: $color-secondary;
+    color: $color-black;
+  }
+  .img-hero {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: cover;
+  }
+  .second-hero {
+    margin-top: -20px;
+    padding: 60px 20%;
+    background-color: $color-secondary;
+    @media only screen and (max-width: 1100px) {
+      padding: 40px 5%;
+    }
+    @media only screen and (max-width: 600px) {
+      padding: 20px 5%;
+    }
+    button,
+    p,
+    h1,
+    h5 {
+      margin: 12px auto;
+      color: $color-white;
+      text-align: center;
+    }
+  }
+  .btn-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .header-image {
+    position: relative;
+    img {
+      object-fit: cover;
+      width: 100%;
+      max-height: 100vh;
+    }
+    .banner {
+      position: absolute;
+      bottom: -48px;
+      left: 120px;
+      background-color: $color-secondary;
+      padding: 18px 120px;
+      @media only screen and (max-width: 1100px) {
+        padding: 18px 0;
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      @media only screen and (max-width: 700px) {
+        padding: 8px 0 !important;
+      }
+      h1 {
+        color: $color-black;
+      }
+    }
+  }
+  .berita {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 5%;
+    text-align: left;
+    @media only screen and (max-width: 1500px) {
+      padding: 40px;
+    }
+    @media only screen and (max-width: 1000px) {
+      padding: 20px;
+    }
+    .title {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 32px;
+      @media only screen and (max-width: 1000px) {
+        text-align: center;
+        margin: 12px 0;
+      }
+    }
+    .headline-news {
+      width: 30%;
+      padding-top: 20px;
+      margin-bottom: 24px;
+      @media only screen and (max-width: 1000px) {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+      }
+    }
+    .news-list {
+      width: 65%;
+      height: 100%;
+      height: 540px;
+      overflow-y: auto;
+      @media only screen and (max-width: 1000px) {
+        width: 100%;
+      }
+      img {
+        object-fit: cover;
+      }
+      .news-item {
+        display: flex;
+        justify-content: space-between;
+        gap: 5%;
+        padding: 28px 0;
+        border-top: 1px solid $color-white-3;
+        img {
+          width: 15%;
+          @media only screen and (max-width: 1500px) {
+            width: 25%;
+          }
+        }
+        .text {
+          width: 80%;
+          @media only screen and (max-width: 1500px) {
+            width: 70%;
+          }
+        }
+      }
+    }
+  }
+  .berita-carousel {
+    margin-top: 40px;
+    padding: 60px 24px;
+    text-align: left;
+    width: 100%;
+    background-color: $color-primary;
+    @media only screen and (max-width: 1200px) {
+      padding: 40px 12px;
+    }
+    button {
+      min-width: 0;
+      background-color: transparent;
+    }
+    .container {
+      max-width: 100vw !important;
+    }
+    .texted-image {
+      position: relative;
+      margin: 12px 24px;
+      img {
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.4);
+      }
+      .text {
+        position: absolute;
+        padding: 14px;
+        bottom: 0;
+        left: 0;
+        h6 {
+          margin-bottom: 10px;
+        }
+        h6,
+        a {
+          color: $color-white;
+        }
+        a {
+          text-decoration: underline;
+          filter: brightness(0.9);
+        }
+      }
+    }
+  }
+  .agenda-kegiatan {
+    padding: 40px 0;
+    padding-top: 120px;
+    h5 {
+      color: $color-black !important;
+    }
+    .agenda-container {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      .kegiatan {
+        padding: 90px;
+        padding-top: 20px;
+        width: 96%;
+        background-color: $color-secondary;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 5%;
+        position: relative;
+        @media only screen and (max-width: 1200px) {
+          padding: 40px;
+        }
+        @media only screen and (max-width: 1100px) {
+          width: 100%;
+          gap: 1%;
+        }
+        @media only screen and (max-width: 600px) {
+          padding: 40px 20px;
+        }
+        button,
+        p,
+        h1,
+        h5 {
+          margin: 12px auto;
+          color: $color-white;
+          text-align: center;
+        }
+      }
+      .btn-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+      .header-image {
+        position: relative;
+        img {
+          object-fit: cover;
+          width: 100%;
+          max-height: 100vh;
+        }
+        .banner {
+          position: absolute;
+          bottom: -48px;
+          left: 120px;
+          background-color: $color-secondary;
+          padding: 18px 120px;
+          @media only screen and (max-width: 1100px) {
+            padding: 18px 0;
+            width: 90%;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+          @media only screen and (max-width: 700px) {
+            padding: 8px 0 !important;
+          }
+          h1 {
+            color: $color-black;
+          }
+        }
+      }
+      .berita {
+        padding: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 5%;
+        text-align: left;
+        @media only screen and (max-width: 1500px) {
+          padding: 40px;
+        }
+        @media only screen and (max-width: 1000px) {
+          padding: 20px;
+        }
+        .title {
+          width: 100%;
+          text-align: left;
+          margin-bottom: 32px;
+          @media only screen and (max-width: 1000px) {
+            text-align: center;
+            margin: 12px 0;
+          }
+        }
+        .headline-news {
+          width: 30%;
+          padding-top: 20px;
+          margin-bottom: 24px;
+          @media only screen and (max-width: 1000px) {
+            width: 100%;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        .news-list {
+          width: 65%;
+          height: 100%;
+          height: 540px;
+          overflow-y: auto;
+          @media only screen and (max-width: 1000px) {
+            width: 100%;
+          }
+          img {
+            object-fit: cover;
+          }
+          .news-item {
+            display: flex;
+            justify-content: space-between;
+            gap: 5%;
+            padding: 28px 0;
+            border-top: 1px solid $color-white-3;
+            img {
+              width: 15%;
+              @media only screen and (max-width: 1500px) {
+                width: 25%;
+              }
+            }
+            .text {
+              width: 80%;
+              @media only screen and (max-width: 1500px) {
+                width: 70%;
+              }
+            }
+          }
+        }
+      }
+      .berita-carousel {
+        margin-top: 40px;
+        padding: 60px 24px;
+        text-align: left;
+        width: 100%;
+        background-color: $color-primary;
+        @media only screen and (max-width: 1200px) {
+          padding: 40px 12px;
+        }
+        button {
+          min-width: 0;
+          background-color: transparent;
+        }
+        .container {
+          max-width: 100vw !important;
+          padding-left: 0 !important;
+        }
+        .texted-image {
+          position: relative;
+          margin: 12px 24px;
+          img {
+            width: 100%;
+            object-fit: cover;
+            filter: brightness(0.4);
+          }
+          .text {
+            position: absolute;
+            padding: 14px;
+            bottom: 0;
+            left: 0;
+            h6 {
+              margin-bottom: 10px;
+            }
+            h6,
+            a {
+              color: $color-white;
+            }
+            a {
+              text-decoration: underline;
+              filter: brightness(0.9);
+            }
+          }
+        }
+      }
+      .agenda-kegiatan {
+        padding: 40px 0;
+        padding-top: 120px;
+        .agenda-container {
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          .kegiatan {
+            padding: 90px;
+            padding-top: 20px;
+            width: 96%;
+            background-color: $color-secondary;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 5%;
+            position: relative;
+            @media only screen and (max-width: 1200px) {
+              padding: 40px;
+            }
+            @media only screen and (max-width: 1100px) {
+              width: 100%;
+              gap: 1%;
+            }
+            @media only screen and (max-width: 600px) {
+              padding: 40px 20px;
+            }
+          }
+        }
+      }
+      .section-title {
+        order: 1;
+        margin-top: -100px;
+        width: 100%;
+        h1 {
+          padding: 0;
+          padding-bottom: 32px;
+          margin: 0;
+          text-align: left;
+          color: $color-primary;
+          width: 400px;
+          @media only screen and (max-width: 1000px) {
+            text-align: center;
+            width: fit-content;
+            margin: 0 auto;
+          }
+          @media only screen and (max-width: 600px) {
+            margin: 0;
+            padding: 0;
+          }
+        }
+      }
+      .activity {
+        width: 55%;
+        order: 2;
+        @media only screen and (max-width: 1100px) {
+          width: 57%;
+        }
+        @media only screen and (max-width: 1000px) {
+          width: 100%;
+          order: 3;
+        }
+      }
+      .calendar {
+        width: 40%;
+        order: 3;
+        @media only screen and (max-width: 1100px) {
+          width: 42%;
+        }
+        @media only screen and (max-width: 1000px) {
+          width: 100%;
+          order: 2;
+        }
+        .card {
+          padding: 40px;
+          @media only screen and (max-width: 1300px) {
+            padding: 20px;
+          }
+        }
+      }
+      .card {
+        width: 100%;
+        background-color: $color-white;
+        text-align: left;
+        padding: 24px;
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: -0.5px 1px 14px #474747;
+        @media only screen and (max-width: 500px) {
+          padding: 18px;
+        }
+        .card-item {
+          width: 100%;
+          padding: 12px;
+        }
+        .title {
+          background-color: $color-secondary;
+        }
+        .item {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 2%;
+          @media only screen and (max-width: 600px) {
+            gap: 5%;
+          }
+          h6:first-child {
+            width: 15%;
+            @media only screen and (max-width: 600px) {
+              width: 20%;
+            }
+          }
+          h4 {
+            width: 55%;
+            @media only screen and (max-width: 600px) {
+              width: 75%;
+            }
+          }
+          h6:last-child {
+            width: 26%;
+            @media only screen and (max-width: 600px) {
+              display: none;
+            }
+          }
+        }
+        .blank-space {
+          height: 40px;
+          background-color: $color-white-3;
+        }
+        .select-date {
+          display: flex;
+          justify-content: space-between;
+          .navigation {
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            img {
+              cursor: pointer;
+              width: 24px;
+              height: fit-content;
+              -webkit-filter: invert(100%); /* Safari/Chrome */
+              filter: invert(100%);
+            }
+          }
+        }
+        .select-calendar {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          flex-wrap: wrap;
+          .date {
+            cursor: pointer;
+            width: calc(100% / 7);
+          }
+          h6 {
+            text-align: center;
+            padding: 10px;
+            @media only screen and (max-width: 600px) {
+              padding: 8px 4px;
+            }
+          }
+          .active {
+            background-color: $color-secondary;
+            border-radius: 100px;
+          }
+        }
+      }
+      button {
+        margin: 48px 0;
+        width: 80%;
+        @media only screen and (max-width: 1000px) {
+          margin: 18px 0;
+        }
+      }
+      .arsip {
+        background-color: $color-primary;
+        padding: 90px;
+        @media only screen and (max-width: 1500px) {
+          padding: 40px;
+        }
+        @media only screen and (max-width: 1000px) {
+          padding: 20px;
+        }
+        .title {
+          color: $color-white;
+          text-align: left;
+          .section-title {
+            order: 1;
+            margin-top: -100px;
+            width: 100%;
+            h1 {
+              padding: 0;
+              padding-bottom: 32px;
+              margin: 0;
+              text-align: left;
+              color: $color-primary;
+              width: 400px;
+              @media only screen and (max-width: 1000px) {
+                text-align: center;
+                width: fit-content;
+                margin: 0 auto;
+              }
+              @media only screen and (max-width: 600px) {
+                margin: 0;
+                padding: 0;
+              }
+            }
+          }
+          .activity {
+            width: 55%;
+            order: 2;
+            @media only screen and (max-width: 1100px) {
+              width: 57%;
+            }
+            @media only screen and (max-width: 1000px) {
+              width: 100%;
+              order: 3;
+            }
+          }
+          .calendar {
+            width: 40%;
+            order: 3;
+            @media only screen and (max-width: 1100px) {
+              width: 42%;
+            }
+            @media only screen and (max-width: 1000px) {
+              width: 100%;
+              order: 2;
+            }
+            .card {
+              padding: 40px;
+              @media only screen and (max-width: 1300px) {
+                padding: 20px;
+              }
+            }
+          }
+          .card {
+            width: 100%;
+            background-color: $color-white;
+            text-align: left;
+            padding: 24px;
+            display: flex;
+            flex-wrap: wrap;
+            box-shadow: -0.5px 1px 14px #474747;
+            @media only screen and (max-width: 500px) {
+              padding: 18px;
+            }
+            .card-item {
+              width: 100%;
+              padding: 12px;
+            }
+            .title {
+              background-color: $color-secondary;
+            }
+            .item {
+              display: flex;
+              justify-content: space-between;
+              align-items: flex-start;
+              gap: 2%;
+              @media only screen and (max-width: 600px) {
+                gap: 5%;
+              }
+              h6:first-child {
+                width: 15%;
+                @media only screen and (max-width: 600px) {
+                  width: 20%;
+                }
+              }
+              h4 {
+                width: 55%;
+                @media only screen and (max-width: 600px) {
+                  width: 75%;
+                }
+              }
+              h6:last-child {
+                width: 26%;
+                @media only screen and (max-width: 600px) {
+                  display: none;
+                }
+              }
+            }
+            .blank-space {
+              height: 40px;
+              background-color: $color-white-3;
+            }
+            .select-date {
+              display: flex;
+              justify-content: space-between;
+              .navigation {
+                display: flex;
+                justify-content: flex-end;
+                gap: 8px;
+                img {
+                  cursor: pointer;
+                  width: 24px;
+                  height: fit-content;
+                  -webkit-filter: invert(100%); /* Safari/Chrome */
+                  filter: invert(100%);
+                }
+              }
+            }
+            .select-calendar {
+              width: 100%;
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              flex-wrap: wrap;
+              .date {
+                cursor: pointer;
+                width: calc(100% / 7);
+              }
+              h6 {
+                text-align: center;
+                padding: 10px;
+                @media only screen and (max-width: 600px) {
+                  padding: 8px 4px;
+                }
+              }
+              .active {
+                background-color: $color-secondary;
+                border-radius: 100px;
+              }
+            }
+          }
+          button {
+            margin: 48px 0;
+            width: 80%;
+            @media only screen and (max-width: 1000px) {
+              margin: 18px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .arsip {
+    background-color: $color-primary;
+    padding: 90px;
+    @media only screen and (max-width: 1500px) {
+      padding: 40px;
+    }
+    @media only screen and (max-width: 1000px) {
+      padding: 20px;
+    }
+    .title {
+      color: $color-white;
+      text-align: left;
+      margin: 0;
+      margin-bottom: 48px;
+      @media only screen and (max-width: 1000px) {
+        margin-top: 24px;
+        margin-bottom: 24px;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #00b16a;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00b16a;
+    }
+
+    .dokumen {
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 5%;
+      &-list {
+        overflow-y: auto;
+
+        max-height: 400px;
+        width: 30%;
+        margin-bottom: 24px;
+        @media only screen and (max-width: 1000px) {
+          width: 47.5%;
+        }
+        &__title {
+          color: $color-secondary;
+        }
+        &__list {
+          padding: 12px 0;
+          a {
+            text-decoration: underline;
+            color: $color-secondary;
+            filter: brightness(0.8);
+          }
+        }
+        &__item {
+          border-top: 1px solid $color-white-3;
+          padding: 18px 0;
+          h5 {
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+}

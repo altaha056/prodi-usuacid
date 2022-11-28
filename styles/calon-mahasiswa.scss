@@ -1,0 +1,887 @@
+.calon-mahasiswa {
+    text-align: center;
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        color: $color-black;
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 20px;
+        line-height: 72px;
+        @media only screen and (max-width: 1400px) {
+            font-size: 48px;
+            line-height: 54px;
+        }
+        @media only screen and (max-width: 1100px) {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 32px;
+            line-height: 36px;
+        }
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 42px;
+        @media only screen and (max-width: 1100px) {
+            font-size: 32px;
+            line-height: 38px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        @media only screen and (max-width: 500px) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 40px;
+        @media only screen and (max-width: 600px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    h4 {
+        font-size: 28px;
+        font-weight: 500;
+        color: $color-black;
+        line-height: 32px;
+        @media only screen and (max-width: 600px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    p {
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-black;
+        font-weight: 500;
+        @media only screen and (max-width: 1400px) {
+            font-size: 22px;
+            line-height: 26px;
+        }
+        @media only screen and (max-width: 1100px) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        @media only screen and (max-width: 500px) {
+            font-size: 14px;
+            line-height: 18px;
+        }
+    }
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 32px;
+        min-width: 320px;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        gap: 5%;
+        cursor: pointer;
+        span {
+            width: 85%;
+        }
+        img {
+            width: 10%;
+        }
+        @media only screen and (max-width: 1400px) {
+            min-width: 240px;
+        }
+    }
+    .btn-red {
+        background-color: #ff0000;
+        color: $color-white;
+    }
+    .btn-green {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+    .btn-yellow {
+        background-color: $color-secondary;
+        color: $color-black;
+        img {
+            -webkit-filter: invert(100%); /* Safari/Chrome */
+            filter: invert(100%);
+        }
+    }
+    .local-icon {
+        img {
+            width: 100%;
+        }
+    }
+    .big-title:before {
+        content: "";
+        position: absolute;
+        left: 20%;
+        bottom: 0;
+        height: 1px;
+        width: 60%;
+        border-bottom: 8px solid $color-secondary;
+    }
+    .header-image {
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            max-height: 100vh;
+        }
+        .banner {
+            position: absolute;
+            bottom: -48px;
+            left: 120px;
+            background-color: $color-secondary;
+            padding: 18px 120px;
+            @media only screen and (max-width: 1100px) {
+                padding: 18px 0;
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            h1 {
+                color: $color-black;
+            }
+        }
+    }
+    .program-pendidikan {
+        position: relative;
+        margin-top: 120px;
+        @media only screen and (max-width: 1100px) {
+            margin-top: 80px;
+        }
+        .block-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2%;
+            padding: 60px 96px;
+            @media only screen and (max-width: 1000px) {
+                padding: 30px 48px;
+            }
+            @media only screen and (max-width: 600px) {
+                padding: 30px 24px;
+            }
+            .block-item {
+                position: relative;
+                text-align: center;
+                width: 18%;
+                margin-bottom: 12px;
+                @media only screen and (max-width: 1700px) {
+                    width: 25%;
+                }
+                @media only screen and (max-width: 1400px) {
+                    width: 30%;
+                }
+                @media only screen and (max-width: 1000px) {
+                    width: 45%;
+                }
+                img {
+                    width: 100%;
+                    filter: brightness(40%);
+                }
+                h2 {
+                    color: $color-white;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+    }
+    .fakultas-sekolah {
+        .abstract {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 80px;
+            padding: 60px;
+            background-color: $color-primary;
+            text-align: left;
+            @media only screen and (max-width: 1400px) {
+                flex-wrap: wrap;
+                gap: 0;
+                text-align: center;
+            }
+            @media only screen and (max-width: 900px) {
+                padding: 32px 24px;
+                justify-content: center;
+            }
+            h1 {
+                color: $color-secondary;
+                min-width: 750px;
+                @media only screen and (max-width: 900px) {
+                    min-width: 0;
+                }
+            }
+            .subtitle {
+                color: $color-white;
+            }
+        }
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4%;
+            justify-content: center;
+            padding: 24px 80px;
+            @media only screen and (max-width: 1200px) {
+                padding: 24px 40px;
+            }
+            .fakultas-item {
+                width: 20%;
+                margin-bottom: 24px;
+                @media only screen and (max-width: 1700px) {
+                    width: 26%;
+                }
+                @media only screen and (max-width: 1200px) {
+                    width: 30%;
+                }
+                @media only screen and (max-width: 800px) {
+                    width: 48%;
+                }
+                p {
+                    font-weight: 600;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
+                .name {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 60px;
+                    padding: 0 8px;
+                    font-weight: 700;
+                }
+                .bg-yellow {
+                    background-color: $color-secondary;
+                    p {
+                        color: $color-black;
+                    }
+                }
+                .bg-green {
+                    background-color: $color-primary;
+                    p {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+    }
+    .informasi-mahasiswa-baru {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        height: 580px;
+        margin-top: 100px;
+        padding: 80px;
+        background-color: $color-secondary;
+        @media only screen and (max-width: 1400px) {
+            height: fit-content;
+            flex-wrap: wrap;
+            gap: 0;
+            text-align: center;
+        }
+        @media only screen and (max-width: 1100px) {
+            padding: 80px 40px;
+        }
+        .image {
+            order: 2;
+            width: 100%;
+            img {
+                width: 100%;
+            }
+            @media only screen and (max-width: 1660px) {
+                max-width: 700px;
+            }
+            @media only screen and (max-width: 1400px) {
+                max-width: fit-content;
+                order: 1;
+            }
+        }
+        .description {
+            width: 100%;
+            order: 1;
+            text-align: left;
+            h2 {
+                width: 100%;
+                padding-bottom: 32px;
+            }
+            button {
+                margin: 8px 0;
+            }
+            .btn-wrapper {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            @media only screen and (max-width: 1400px) {
+                text-align: center;
+                order: 2;
+            }
+        }
+    }
+    .berita-kampus {
+        margin-top: 120px;
+        @media only screen and (max-width: 1100px) {
+            margin-top: 40px;
+        }
+        .berita-list {
+            margin-top: 48px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            .berita-item {
+                width: 30%;
+                padding: 28px;
+                @media only screen and (max-width: 1400px) {
+                    width: 45%;
+                }
+                @media only screen and (max-width: 900px) {
+                    width: 90%;
+                }
+                .more-link {
+                    text-align: left;
+                    margin-bottom: 32px;
+                }
+                a {
+                    text-decoration: underline;
+                }
+                h2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 144px;
+                    margin-bottom: 32px;
+                    @media only screen and (max-width: 1100px) {
+                        height: fit-content;
+                    }
+                }
+                img {
+                    width: 100%;
+                }
+                h3 {
+                    margin-top: 12px;
+                    text-align: left;
+                }
+                p {
+                    margin: 14px 0;
+                    text-align: left;
+                }
+                .recommended-berita {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 18px;
+                    padding: 24px 0;
+                    border-top: 1px solid $color-white;
+                    .image {
+                        width: 30%;
+                        @media only screen and (max-width: 1100px) {
+                            display: none;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .description {
+                        width: 70%;
+                        text-align: left;
+                        @media only screen and (max-width: 1100px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .bg-green {
+                background-color: $color-primary;
+                color: $color-white;
+                h1,
+                h2,
+                h3,
+                h4,
+                p {
+                    color: $color-white;
+                }
+            }
+            .bg-yellow {
+                background-color: $color-secondary;
+                color: $color-black;
+                h1,
+                h2,
+                h3,
+                h4,
+                p {
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    .unit-kegiatan-mahasiswa {
+        margin-top: 120px;
+        transition: all 0.5s linear;
+        @media only screen and (max-width: 1100px) {
+            margin-top: 40px;
+        }
+        .ukm-list {
+            margin-top: 80px;
+            padding: 0 80px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            .list {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                @media only screen and (max-width: 1100px) {
+                    width: 100%;
+                }
+            }
+            @media only screen and (max-width: 1100px) {
+                margin-top: 40px;
+            }
+            @media only screen and (max-width: 705px) {
+                padding: 0 20px;
+                margin-top: 40px;
+            }
+            .ukm-item {
+                margin: 2px 0;
+                width: 90%;
+                .dropdown-title {
+                    cursor: pointer;
+                    width: 100%;
+                    background-color: $color-primary;
+                    color: $color-white;
+                    text-align: left;
+                    padding: 12px 32px;
+                    font-size: 18px;
+                    line-height: 22px;
+                    @media only screen and (max-width: 1400px) {
+                        font-size: 16px;
+                    }
+                    .title {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        img {
+                            margin-right: 20px;
+                        }
+                        img,
+                        .dropdown-button {
+                            width: 40px;
+                        }
+                        .text {
+                            width: -webkit-fill-available;
+                        }
+                    }
+                    .material-icons {
+                        font-size: 42px;
+                        margin-right: 12px;
+                    }
+                }
+                .dropdown-content {
+                    display: none;
+                    .content {
+                        padding: 12px 32px;
+                        padding-left: 90px;
+                        margin: 8px 0;
+                        background-color: $color-white-3;
+                        width: 100%;
+                        text-align: left;
+                        span {
+                            color: $color-black;
+                            font-weight: 600;
+                        }
+                        a {
+                            width: 100px;
+                            display: flex;
+                            float: right;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            gap: 8px;
+                            span {
+                                color: $color-primary;
+                            }
+                            img {
+                                width: 18px;
+                                height: fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+            .active {
+                .dropdown-title {
+                    background-color: $color-secondary;
+                    img {
+                        -webkit-filter: invert(100%); /* Safari/Chrome */
+                        filter: invert(100%);
+                    }
+                }
+                .dropdown-content {
+                    display: block;
+                }
+            }
+        }
+    }
+    .kunjungi-kampus {
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        background-image: url("/images/usu-from-drone.jpg");
+        background-size: cover;
+        text-align: left;
+        @media only screen and (max-width: 1100px) {
+            margin-top: 40px;
+        }
+        h1 {
+            text-align: left;
+            width: fit-content;
+            color: $color-secondary;
+            margin: 20px 0;
+            padding: 0;
+        }
+        p {
+            color: $color-white;
+        }
+        h2 {
+            color: $color-white;
+        }
+        button {
+            margin: 20px 0;
+            margin-bottom: 72px;
+        }
+        .questions {
+            width: 55%;
+            padding: 80px;
+            background-color: rgba($color-primary, 0.9);
+            @media only screen and (max-width: 1400px) {
+                width: 100%;
+                padding: 32px;
+            }
+            @media only screen and (max-width: 1100px) {
+                text-align: center;
+                h1 {
+                    text-align: center;
+                    margin: 12px auto;
+                }
+            }
+            .question-list {
+                margin: 20px 0;
+                .faq-item {
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: $color-black;
+                    .dropdown-title {
+                        margin-top: 8px;
+                        padding: 8px 24px;
+                        background-color: $color-white;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .dropdown-content {
+                        display: none;
+                        margin-top: 8px;
+                        padding: 8px 24px;
+                        background-color: rgba(255, 193, 7, 0.21);
+                        color: $color-white;
+                    }
+                }
+                .active {
+                    .dropdown-title {
+                        background-color: $color-secondary;
+                    }
+                    .dropdown-content {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .akses-transportasi {
+            width: 45%;
+            padding: 80px;
+            background-color: $color-secondary;
+            color: $color-black;
+            @media only screen and (max-width: 1400px) {
+                width: 100%;
+                padding: 32px;
+            }
+            h2,
+            p {
+                color: $color-black;
+            }
+            h2 {
+                color: $color-black;
+                margin-bottom: 20px;
+            }
+            .luar-medan {
+                margin-top: 48px;
+                .item {
+                    margin: 18px 0;
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 32px;
+                    .image {
+                        padding-top: 14px;
+                        width: 20%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    p {
+                        width: 80%;
+                        @media only screen and (max-width: 700px) {
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .beasiswa {
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 1000px) {
+            padding: 40px;
+        }
+        @media only screen and (max-width: 700px) {
+            padding: 20px;
+        }
+        .content-wrapper {
+            max-width: 1200px;
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            gap: 60px;
+            h1 {
+                width: fit-content;
+                text-align: left;
+                padding-bottom: 12px !important;
+                margin: 0;
+                padding: 0;
+            }
+            h1:before {
+                content: "";
+                position: absolute;
+                left: 5%;
+                bottom: 0;
+                height: 1px;
+                width: 90%;
+                border-bottom: 8px solid $color-secondary;
+            }
+            .image {
+                @media only screen and (max-width: 1000px) {
+                    display: none;
+                }
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                img {
+                    width: 100%;
+                }
+            }
+            .content-description {
+                margin: auto 0;
+                @media only screen and (max-width: 1000px) {
+                    text-align: center;
+                    h1 {
+                        margin: 0 auto;
+                    }
+                }
+                p {
+                    margin: 32px 0;
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    .fasilitas-kampus {
+        background-color: $color-primary;
+        padding: 48px;
+        @media only screen and (max-width: 700px) {
+            padding: 24px;
+        }
+        h1 {
+            color: $color-white;
+        }
+        .image-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 32px;
+            margin: 40px auto;
+            @media only screen and (max-width: 1100px) {
+                gap: 12px;
+            }
+            img {
+                width: 30%;
+                @media only screen and (max-width: 1100px) {
+                    width: 48%;
+                }
+                @media only screen and (max-width: 350px) {
+                    width: 96%;
+                }
+            }
+        }
+    }
+    .wisata_kota_medan {
+        margin-top: 120px;
+        @media only screen and (max-width: 1100px) {
+            margin-top: 40px;
+        }
+        .wisata-list {
+            position: relative;
+            padding: 60px 0;
+            text-align: left;
+            h1,
+            p {
+                color: $color-black;
+            }
+            h1 {
+                width: fit-content;
+                text-align: left;
+                margin: 0;
+                padding: 18px 0;
+            }
+            p {
+                text-align: justify;
+            }
+            .wisata-item {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                height: 700px;
+                @media only screen and (max-width: 1650px) {
+                    height: fit-content;
+                }
+                .image {
+                    z-index: 100;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 45%;
+                    padding: 5%;
+                    @media only screen and (max-width: 1100px) {
+                        padding: 0;
+                        display: none;
+                    }
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                    }
+                }
+                .description {
+                    order: 1;
+                    width: 80%;
+                    padding: 5%;
+                    background-color: $color-secondary;
+                    padding-right: -100px;
+                    @media only screen and (max-width: 1100px) {
+                        width: 100%;
+                        padding: 60px;
+                        background-color: rgba($color-secondary, 0.8);
+                    }
+                    @media only screen and (max-width: 700px) {
+                        padding: 30px;
+                    }
+                    .text {
+                        width: 70%;
+                        @media only screen and (max-width: 1100px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+
+            .even-item {
+                position: relative;
+                justify-content: flex-end;
+                h1,
+                p {
+                    color: $color-white;
+                }
+                .image {
+                    order: 1;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+                .description {
+                    order: 2;
+                    background-color: $color-primary;
+                    display: flex;
+                    justify-content: flex-end;
+                    @media only screen and (max-width: 1100px) {
+                        background-color: rgba($color-primary, 0.8);
+                    }
+                }
+            }
+        }
+    }
+    .kunjungi-medan {
+        margin-top: 60px;
+        position: relative;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("/images/medan-map.png");
+        background-size: cover;
+        background-position: center;
+        @media only screen and (max-width: 1100px) {
+            height: 350px;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.7);
+            pointer-events: none;
+        }
+        button {
+            z-index: 10;
+        }
+    }
+
+    .btn-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .btn-wrapper-left {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 14px;
+        @media only screen and (max-width: 1400px) {
+            justify-content: center;
+        }
+    }
+}

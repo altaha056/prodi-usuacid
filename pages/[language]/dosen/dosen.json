@@ -1,0 +1,209 @@
+[
+    {
+        "slug": "masfria",
+        "name": "Prof.Dr. Masfria, MS., Apt",
+        "image": "/images/dosen/masfria.jpg",
+        "nip": "195707231986012001",
+        "email": "fia.mustafa@yahoo.com",
+        "fakultas": "Farmasi",
+        "url": "#",
+        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "sitasi": {
+            "bidangKepakaran": ["Kimia Farmasi", "Radio Farmasi"],
+            "url": {
+                "googleScholar": "https://scholar.google.co.id/citations?user=IAtA_HMAAAAJ&hl=id",
+                "researchGate": "https://www.researchgate.net/scientific-contributions/Masfria-Masfria-2229838794",
+                "sinta": "https://sinta.kemdikbud.go.id/authors/profile/6124718",
+                "scopus": "https://www.scopus.com/authid/detail.uri?authorId=56297193800"
+            }
+        },
+        "latarPendidikan": [
+            {
+                "jenjang": "Doktor",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Master",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Sarjana",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ],
+        "penelitianPublikasi": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ],
+        "pengabdianMasyarakat": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ]
+    },
+    {
+        "slug": "harry-agusnar",
+        "name": "Prof.Dr. Harry Agusnar, M.Sc",
+        "image": "/images/dosen/masfria.jpg",
+        "nip": "195707231986012001",
+        "email": "fia.mustafa@yahoo.com",
+        "fakultas": "Matematika dan Ilmu Pengetahuan Alam",
+        "url": "#",
+        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "sitasi": {
+            "bidangKepakaran": ["Kimia Farmasi", "Radio Farmasi"],
+            "url": {
+                "googleScholar": "https://scholar.google.co.id/citations?user=IAtA_HMAAAAJ&hl=id",
+                "researchGate": "https://www.researchgate.net/scientific-contributions/Masfria-Masfria-2229838794",
+                "sinta": "https://sinta.kemdikbud.go.id/authors/profile/6124718",
+                "scopus": "https://www.scopus.com/authid/detail.uri?authorId=56297193800"
+            }
+        },
+        "latarPendidikan": [
+            {
+                "jenjang": "Doktor",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Master",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Sarjana",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ],
+        "penelitianPublikasi": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ],
+        "pengabdianMasyarakat": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ]
+    },
+    {
+        "slug": "renita-manurung",
+        "name": "Prof.Dr. Renita Manurung, MT",
+        "image": "/images/dosen/masfria.jpg",
+        "nip": "195707231986012001",
+        "email": "fia.mustafa@yahoo.com",
+        "fakultas": "Teknik",
+        "url": "#",
+        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "sitasi": {
+            "bidangKepakaran": ["Kimia Farmasi", "Radio Farmasi"],
+            "url": {
+                "googleScholar": "https://scholar.google.co.id/citations?user=IAtA_HMAAAAJ&hl=id",
+                "researchGate": "https://www.researchgate.net/scientific-contributions/Masfria-Masfria-2229838794",
+                "sinta": "https://sinta.kemdikbud.go.id/authors/profile/6124718",
+                "scopus": "https://www.scopus.com/authid/detail.uri?authorId=56297193800"
+            }
+        },
+        "latarPendidikan": [
+            {
+                "jenjang": "Doktor",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Master",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            },
+            {
+                "jenjang": "Sarjana",
+                "universitas": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+            }
+        ],
+        "penelitianPublikasi": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ],
+        "pengabdianMasyarakat": [
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            },
+            {
+                "judul": "Karakterisasi Ekstrak, Profil Senyawa Kimia serta Mekanisme Kerja Ekstrak dan Fraksi Aktif dari Kulit Umbi Bawang Merah (Allium cepa L.) sebagai Antibakteri",
+                "skema": "Penelitian Dasar",
+                "posisi": "Ketua",
+                "status": "Selesai",
+                "tahun": "2017",
+                "sumber": "Universitas Sumatera Utara"
+            }
+        ]
+    }
+]

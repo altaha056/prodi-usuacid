@@ -1,0 +1,149 @@
+[
+    {
+        "slug": "peneliti-terbaik",
+        "title": "Peneliti Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "penulis-terbaik",
+        "title": "Penulis Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "inovator-terbaik",
+        "title": "Inovator Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "pengabdian-terbaik",
+        "title": "Pelaksana Pengabdian pada Masyarakat Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "paten-terbanyak",
+        "title": "Penyumbang Paten Granted Terbanyak",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "konferensi-terbaik",
+        "title": "Penyelenggara Konferensi Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    },
+    {
+        "slug": "jurnal-talenta-terbaik",
+        "title": "Penyelenggara Jurnal TALENTA Terbaik",
+        "dosenList": [
+            {
+                "slug": "masfria",
+                "name": "Prof.Dr. Masfria, MS., Apt",
+                "fakultas": "Farmasi"
+            },
+            {
+                "slug": "harry-agusnar",
+                "name": "Prof.Dr. Harry Agusnar, M.Sc",
+                "fakultas": "Matematika dan Ilmu Pengetahuan Alam"
+            },
+            {
+                "slug": "renita-manurung",
+                "name": "Prof.Dr. Renita Manurung, MT",
+                "fakultas": "Teknik"
+            }
+        ]
+    }
+]

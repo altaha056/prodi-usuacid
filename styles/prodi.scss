@@ -1,0 +1,775 @@
+.prodi {
+  width: auto;
+  max-width: 1400px;
+  margin: auto;
+  h1 {
+    font-family: Public Sans;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: center;
+    @media only screen and (max-width: 1400px) {
+      font-size: 44px;
+      line-height: 50px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 40px;
+      line-height: 48px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 32px;
+      line-height: 36px;
+    }
+  }
+
+  h2 {
+    font-family: Public Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+    @media only screen and (max-width: 1400px) {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 34px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 34px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+
+  p {
+    font-family: Public Sans;
+    font-size: 22px;
+    line-height: 28px;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    @media only screen and (max-width: 1400px) {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    @media only screen and (max-width: 1100px) {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    @media only screen and (max-width: 700px) {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .cover-banner {
+    width: 100%;
+    height: 700px;
+    background-color: yellow;
+    object-fit: cover;
+    @media only screen and (max-width: 1400px) {
+      height: 700px;
+    }
+    @media only screen and (max-width: 1100px) {
+      height: 500px;
+    }
+    @media only screen and (max-width: 700px) {
+      height: 300px;
+    }
+  }
+  .content-section {
+    width: 75%;
+    margin: auto;
+    @media only screen and (max-width: 1400px) {
+      width: 85%;
+    }
+    @media only screen and (max-width: 1100px) {
+      width: 100%;
+    }
+    @media only screen and (max-width: 700px) {
+      width: 100%;
+    }
+    .top {
+      margin-top: -200px;
+      position: relative;
+      @media only screen and (max-width: 1400px) {
+        margin-top: -200px;
+        position: relative;
+      }
+      @media only screen and (max-width: 1100px) {
+        margin-top: -10px;
+        position: relative;
+      }
+      @media only screen and (max-width: 700px) {
+        margin-top: -10px;
+        position: relative;
+      }
+      p {
+        color: #333333;
+      }
+      .title {
+        color: #333333;
+        background-color: #ffb800;
+        width: 100%;
+        height: auto;
+        padding: 60px 80px;
+        align-items: center;
+        grid-row: auto;
+        gap: 20px;
+        @media only screen and (max-width: 1400px) {
+          padding: 60px 80px;
+        }
+        @media only screen and (max-width: 1100px) {
+          padding: 60px 80px;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 40px 60px;
+        }
+
+        h1 {
+          margin-bottom: 20px;
+          @media only screen and (max-width: 1400px) {
+            margin-bottom: 20px;
+          }
+          @media only screen and (max-width: 1100px) {
+            margin-bottom: 10px;
+          }
+          @media only screen and (max-width: 700px) {
+            margin-bottom: 15px;
+          }
+        }
+      }
+      .akreditasi {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: stretch;
+        @media only screen and (max-width: 1400px) {
+          width: 100%;
+          height: auto;
+          display: flex;
+        }
+        @media only screen and (max-width: 1100px) {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+        @media only screen and (max-width: 700px) {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+        .foto {
+          object-fit: cover;
+          width: 50%;
+          height: auto;
+          // background-image: url('/images/prodi/akreditasi.png');
+          background-position: center;
+          background-repeat: no-repeat;
+          min-height: 350px;
+          background-size: cover;
+          @media only screen and (max-width: 1400px) {
+            width: 50%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 100%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 100%;
+          }
+        }
+        .detail {
+          color: white;
+          width: 50%;
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 102, 51, 0.9),
+              rgba(0, 102, 51, 0.9)
+            ),
+            url('/images/prodi/akreditasi-bg.jpg');
+
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          min-height: 350px;
+          padding: 30px;
+          height: auto;
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+          align-self: start;
+          justify-content: center;
+          align-items: center;
+          @media only screen and (max-width: 1400px) {
+            width: 50%;
+            height: auto;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 100%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 100%;
+          }
+          h2 {
+            color: white;
+            text-align: left;
+          }
+          h1 {
+            color: white;
+            margin-top: 15px;
+            text-align: left;
+          }
+          p {
+            color: #ffc107;
+            font-family: Public Sans;
+            font-style: italic;
+            font-weight: 700;
+            letter-spacing: 0em;
+            text-align: left;
+          }
+          .link {
+            position: absolute;
+            bottom: 30px;
+            right: 30px;
+            width: 27px;
+            @media only screen and (max-width: 1400px) {
+              width: 27px;
+            }
+            @media only screen and (max-width: 1100px) {
+              width: 22px;
+            }
+            @media only screen and (max-width: 700px) {
+              width: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    .profil-lulusan {
+      width: 100%;
+      margin-top: 100px;
+      .judul {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        @media only screen and (max-width: 1400px) {
+          display: flex;
+        }
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+        }
+        .garis {
+          width: max-content;
+          width: 70%;
+          height: 4px;
+          background-color: #d9d9d9;
+          @media only screen and (max-width: 1400px) {
+            width: 70%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 60%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 50%;
+          }
+        }
+        h2 {
+          width: auto;
+          color: black;
+          font-size: 34px;
+          text-align: left;
+          margin-right: 20px;
+        }
+      }
+      .konten {
+        display: flex;
+        margin-top: 40px;
+        align-items: flex-start;
+        width: 100%;
+        gap: 40px;
+
+        @media only screen and (max-width: 1400px) {
+          display: flex;
+        }
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+          display: block;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+          display: block;
+        }
+        img {
+          width: 45%;
+          border-radius: 10px;
+          @media only screen and (max-width: 1400px) {
+            width: 45%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 100%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 100%;
+          }
+        }
+        p {
+          width: 55%;
+          font-family: Public Sans;
+          font-weight: 400;
+          letter-spacing: 0em;
+          text-align: justify;
+          @media only screen and (max-width: 1400px) {
+            width: 55%;
+          }
+          @media only screen and (max-width: 1100px) {
+            margin-top: 20px;
+            width: 100%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 100%;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+
+    .capaian-lulusan {
+      width: 100%;
+      margin-top: 100px;
+      .judul {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        @media only screen and (max-width: 1400px) {
+          display: flex;
+        }
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+        }
+        .garis {
+          width: max-content;
+          width: 50%;
+          height: 4px;
+          background-color: #d9d9d9;
+          @media only screen and (max-width: 1400px) {
+            width: 50%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 40%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 30%;
+          }
+        }
+        h2 {
+          width: auto;
+          color: black;
+          font-size: 34px;
+          text-align: left;
+          margin-right: 20px;
+        }
+      }
+      .konten {
+        margin-top: 40px;
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+          display: block;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+          display: block;
+        }
+        p {
+          text-align: justify;
+        }
+        .daftar {
+          .daftar-konten {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            .nomor {
+              background-color: #006633;
+              margin-right: 20px;
+              height: 70px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-width: 70px;
+              color: white;
+              font-family: Public Sans;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 42px;
+              letter-spacing: 0em;
+              text-align: center;
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+
+    .lama-studi {
+      width: 100%;
+      margin-top: 100px;
+      .judul {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        @media only screen and (max-width: 1400px) {
+          display: flex;
+        }
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+        }
+        .garis {
+          width: max-content;
+          width: 70%;
+          height: 4px;
+          background-color: #d9d9d9;
+          @media only screen and (max-width: 1400px) {
+            width: 70%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 70%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 60%;
+          }
+        }
+        h2 {
+          width: auto;
+          color: black;
+          font-size: 34px;
+          text-align: left;
+          margin-right: 20px;
+        }
+      }
+      .konten {
+        margin-top: 40px;
+        @media only screen and (max-width: 1100px) {
+          padding: 0px 40px;
+          display: block;
+        }
+        @media only screen and (max-width: 700px) {
+          padding: 0px 20px;
+          display: block;
+        }
+        p {
+          text-align: justify;
+        }
+        .daftar {
+          .daftar-konten {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+            .nomor {
+              background-color: #006633;
+              margin-right: 20px;
+              height: 70px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              min-width: 70px;
+              color: white;
+              font-family: Public Sans;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 42px;
+              letter-spacing: 0em;
+              text-align: center;
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+
+    .not-found {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 20px;
+      .button {
+        cursor: pointer;
+        background-color: #006633;
+        padding: 10px 20px;
+        p {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .kontak {
+    background-color: #ececec;
+    color: #333333;
+    width: 100%;
+    margin-top: 100px;
+    .konten {
+      width: 75%;
+      margin: auto;
+      padding: 80px 0px;
+      @media only screen and (max-width: 1400px) {
+        padding: 80px 0px;
+        width: 85%;
+      }
+      @media only screen and (max-width: 1100px) {
+        padding: 80px 50px;
+        width: 100%;
+      }
+      @media only screen and (max-width: 700px) {
+        width: 100%;
+        padding: 20px 40px;
+      }
+      .judul {
+        .prodi {
+          font-family: Public Sans;
+          font-size: 30px;
+          font-weight: 700;
+          line-height: 36px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .fakultas {
+          font-family: Public Sans;
+          font-size: 30px;
+          font-weight: 500;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+        .universitas {
+          font-family: Public Sans;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 32px;
+          letter-spacing: 0em;
+          text-align: left;
+          color: #006633;
+        }
+      }
+      .detail {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        .alamat {
+          display: flex;
+          width: 40%;
+          text-align: left;
+          gap: 10px;
+          img {
+            margin-top: 5px;
+            height: 20px;
+          }
+          p {
+            text-align: left;
+          }
+          @media only screen and (max-width: 1400px) {
+            width: 40%;
+          }
+          @media only screen and (max-width: 1100px) {
+            width: 100%;
+          }
+          @media only screen and (max-width: 700px) {
+            width: 100%;
+          }
+        }
+        .section2 {
+          width: 30%;
+          .telepon {
+            gap: 10px;
+            display: flex;
+            img {
+              height: 20px;
+              margin-top: 5px;
+            }
+          }
+          .email {
+            gap: 10px;
+            display: flex;
+            margin-top: 20px;
+            img {
+              margin-top: 5px;
+              height: 20px;
+            }
+          }
+        }
+        .sosmed {
+          width: 20%;
+          display: flex;
+          align-content: space-around;
+          gap: 30px;
+          img {
+            height: 50px;
+
+            @media only screen and (max-width: 1400px) {
+              height: 50px;
+            }
+            @media only screen and (max-width: 1100px) {
+              height: 40px;
+            }
+            @media only screen and (max-width: 700px) {
+              height: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .biaya-pendidikan {
+    margin-top: 100px;
+
+    .judul {
+      h1 {
+        font-family: Public Sans;
+        font-weight: 700;
+        color: #333333;
+      }
+      p {
+        color: #006633;
+        margin-top: 10px;
+      }
+    }
+    .container {
+      margin-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      min-width: 100%;
+      gap: 20px;
+      justify-content: center;
+      .item {
+        width: 300px;
+        min-height: 100px;
+        border-radius: 5px;
+        box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.034),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px;
+        p {
+          text-align: left;
+          font-weight: 700;
+          font-size: 28px;
+
+          @media only screen and (max-width: 1400px) {
+            font-size: 28px;
+          }
+          @media only screen and (max-width: 1100px) {
+            font-size: 24px;
+          }
+          @media only screen and (max-width: 700px) {
+            font-size: 18px;
+          }
+        }
+        .jenis {
+          p {
+            color: #006633;
+            line-height: normal;
+          }
+        }
+        .biaya {
+          p {
+            color: #333333;
+            line-height: normal;
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .topik-penelitian {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+    padding: 60px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    .intro {
+      width: 50%;
+      min-height: 300px;
+      height: auto;
+      background-image: linear-gradient(
+          to bottom,
+          rgba(0, 102, 51, 0.9),
+          rgba(0, 102, 51, 0.9)
+        ),
+        url('/images/prodi/akreditasi-bg.jpg');
+
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 30px 50px 50px 50px;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      h1 {
+        font-family: Public Sans;
+        font-weight: 700;
+        color: white;
+        text-align: right;
+      }
+
+      @media only screen and (max-width: 1400px) {
+        height: 200px;
+        width: 50%;
+      }
+      @media only screen and (max-width: 1100px) {
+        height: 200px;
+        width: 100%;
+      }
+      @media only screen and (max-width: 700px) {
+        height: 200px;
+        width: 100%;
+      }
+    }
+    .konten {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      @media only screen and (max-width: 1400px) {
+        width: 50%;
+      }
+      @media only screen and (max-width: 1100px) {
+        width: 100%;
+      }
+      @media only screen and (max-width: 700px) {
+        width: 100%;
+      }
+      img {
+        height: 145.5px;
+        margin-left: 10px;
+      }
+
+      overflow: auto;
+      white-space: nowrap;
+    }
+  }
+}

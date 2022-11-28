@@ -1,0 +1,375 @@
+.ftco-section--article-page {
+    img {
+        max-width: 100%;
+    }
+    @media (max-width: 767.98px) {
+        .article-list-wrapper {
+            .article-item {
+                > h1 {
+                    font-size: 26px;
+                    margin-bottom: 0;
+                    padding: 0;
+                    width: 100%;
+                    line-height: 1.2;
+                }
+            }
+            .abstract {
+                br {
+                    display: none;
+                }
+                > h4 {
+                    margin-bottom: 8px;
+                    font-size: 18px;
+                }
+                .article-description {
+                    line-height: 1.6;
+                }
+            }
+        }
+    }
+}
+
+.article-list-page {
+    .dedication-item {
+        &-wrap {
+            > .row {
+                margin: 0 -8px;
+                > [class*="col"] {
+                    padding: 0 8px;
+                }
+            }
+        }
+        .staff {
+            flex-direction: column;
+            display: flex;
+        }
+        .block-20 {
+            height: 260px;
+        }
+        &__desc {
+            flex-grow: 1;
+            padding: 20px;
+            background-color: $color-white-3;
+            .text__title {
+                font-size: 14px;
+                font-weight: 700;
+                margin-bottom: 0;
+                line-height: (18/14);
+            }
+        }
+        &__date {
+            font-size: 10px;
+            margin-bottom: 6px;
+            line-height: 1.4;
+            color: $color-black;
+        }
+
+        &.primary {
+            height: 100%;
+            > div {
+                height: 100%;
+                > .staff {
+                    height: 100%;
+                }
+            }
+            .block-20 {
+                flex-grow: 1;
+                height: auto;
+            }
+            .dedication-item {
+                &__desc {
+                    background-color: $color-primary;
+                    flex-grow: 0;
+                }
+                &__date {
+                    color: $color-white;
+                    font-size: 16px;
+                    margin-bottom: 17px;
+                }
+            }
+            .text__title {
+                color: $color-white;
+                font-size: 32px;
+                line-height: (40/32);
+            }
+        }
+        &.secondary {
+            margin-bottom: 16px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            .dedication-item {
+                &__desc {
+                    background-color: $color-secondary;
+                }
+            }
+        }
+    }
+    .container-wrap {
+        > .row {
+            margin: 0 -8px;
+            > {
+                padding: 0 8px;
+            }
+        }
+    }
+}
+
+.research-wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -250px;
+    @include media-breakpoint-down(sm) {
+        margin: 0;
+        margin-top: 0px;
+        padding: 30px 0;
+        .block-20 {
+            height: 200px;
+        }
+        .section-index-beranda__arsip {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: 0;
+            padding: 0 15px;
+            text-align: right;
+        }
+    }
+}
+
+.penelitian-wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -250px;
+    @include media-breakpoint-down(sm) {
+        margin: 0;
+        margin-top: -150px;
+        padding: 30px 0;
+        .block-20 {
+            height: 200px;
+        }
+        .section-index-beranda__arsip {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: 0;
+            padding: 0 15px;
+            text-align: right;
+        }
+    }
+}
+
+.abdimas-wrapper {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    @include media-breakpoint-down(sm) {
+        margin: 0;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        padding: 150px 0;
+        .block-20 {
+            height: 200px;
+        }
+        .section-index-beranda__arsip {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            margin-right: 0;
+            padding: 0 15px;
+            text-align: right;
+        }
+    }
+    
+}
+
+.section-abdimas {
+    background: linear-gradient(180deg, $color-white, #d3d3d3 90%);
+    margin-top: 150px;
+
+}
+
+.abdimas-item1 {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    box-shadow: 0 7px 12px rgb(0 0 0 / 30%);
+    @include media-breakpoint-down(sm) {
+        height: calc(100vh - 58px);
+        margin-bottom: 30px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+        
+    }
+    .page-desc {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0;
+            padding: 60px;
+            margin-bottom: 0px;
+        }
+        @media only screen and (max-width: 1200px) {
+            bottom: 0;
+            padding: 60px;
+            margin-bottom: 0px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                font-size: 52px;
+                text-align: left;
+                @include media-breakpoint-down(sm) {
+                    font-size: 72px;
+                    padding-right: 0;
+                    padding-bottom: 0px;
+                }
+                @media only screen and (max-width: 1200px) {
+                    font-size: 42px;
+                    padding-right: 0;
+                    padding-bottom: 0px;
+                }
+            }
+            &__detail {
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 1.2;
+                margin-left: 10px;
+                @include media-breakpoint-down(sm) {
+                    font-size: 30px;
+                    font-weight: 300;
+                }
+                @media only screen and (max-width: 1200px) {
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }            
+        }
+    }
+}
+
+.abdimas-item2 {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    box-shadow: 0 7px 12px rgb(0 0 0 / 30%);
+    @include media-breakpoint-down(sm) {
+        height: calc(100vh - 58px);
+        margin-bottom: 30px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-black;
+        background-color: $color-secondary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 20px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+    }
+    .page-desc {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        padding: 30px 90px;
+        color: $color-black;
+        background-color: $color-secondary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0;
+            padding: 60px;
+        }
+        @media only screen and (max-width: 1200px) {
+            bottom: 0;
+            padding: 60px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                @include media-breakpoint-down(sm) {
+                    font-size: 72px;
+                    padding-right: 0;
+                }
+                @media only screen and (max-width: 1200px) {
+                    font-size: 42px;
+                    padding-right: 0;
+                }
+            }
+            &__detail {
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.2;
+                @include media-breakpoint-down(sm) {
+                    font-size: 30px;
+                    font-weight: 300;
+                }
+                @media only screen and (max-width: 1200px) {
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+            }
+            
+        }
+    }
+}
+
+.section-abdimas-usu {
+    background-color: #FFC600;
+    margin-bottom: -200px;
+    height: 350px;
+    @include media-breakpoint-down(sm) {
+        height: 300px;
+
+    }
+    @media only screen and (max-width: 1200px) {
+        height: 300px;
+
+    }
+
+}

@@ -1,0 +1,25 @@
+[
+    {
+        "slug": "ukm-sepak-bola",
+        "imageAsset": "/images/ukm/ukm-sepak-bola-title.jpg",
+        "title": "UKM Sepak Bola",
+        "enTitle": "Football Community",
+        "subtitle": "Kami adalah pusat unggulan pendidikan dokter tropis dan onkologi pencegahan di Asia Tenggara",
+        "url" : "#",
+        "imageUrls": [
+            "/images/ukm/football-1.jpg",
+            "/images/ukm/football-2.jpg",
+            "/images/ukm/football-3.jpg"
+        ],
+        "advantages": [
+            "Kami adalah pusat unggulan pendidikan dokter tropis",
+            "Kami adalah pusat unggulan pendidikan dokter tropis",
+            "Kami adalah pusat unggulan pendidikan dokter tropis",
+            "Kami adalah pusat unggulan pendidikan dokter tropis"
+        ],
+        "description": "Football is the fastest blockchain in the world and the fastest growing ecosystem in football, with thousands of projects spanning DeFi, NFTs, Web3 and more.",
+        "communityURL": "#",
+        "validatorURL": "#",
+        "informasiUKM": "UKM sepak bola adalah ukm yang meraih juara brestasi tertinggi"
+    }
+]

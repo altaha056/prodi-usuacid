@@ -1,0 +1,597 @@
+.dosen {
+    text-align: center;
+    h1 {
+        font-size: 60px;
+        font-weight: 800;
+        color: $color-black;
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 20px;
+        line-height: 72px;
+        @media only screen and (max-width: 1400px) {
+            font-size: 48px;
+            line-height: 54px;
+        }
+        @media only screen and (max-width: 1100px) {
+            font-size: 40px;
+            line-height: 48px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 32px;
+            line-height: 36px;
+        }
+    }
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 42px;
+        @media only screen and (max-width: 1100px) {
+            font-size: 32px;
+            line-height: 38px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        @media only screen and (max-width: 500px) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 40px;
+        @media only screen and (max-width: 600px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    h4 {
+        font-size: 28px;
+        font-weight: 500;
+        color: $color-black;
+        line-height: 32px;
+        @media only screen and (max-width: 1100px) {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    h5 {
+        font-size: 24px;
+        font-weight: 500;
+        color: $color-black;
+        line-height: 30px;
+        @media only screen and (max-width: 1000px) {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    p {
+        font-size: 22px;
+        line-height: 38px;
+        color: $color-black;
+        font-weight: 500;
+        @media only screen and (max-width: 1400px) {
+            font-size: 20px;
+            line-height: 26px;
+        }
+        @media only screen and (max-width: 1100px) {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        @media only screen and (max-width: 700px) {
+            font-size: 16px;
+            line-height: 22px;
+        }
+        @media only screen and (max-width: 500px) {
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+    h6 {
+        font-size: 18px;
+        line-height: 24px;
+        color: $color-black;
+        font-weight: 400;
+    }
+    button {
+        padding: 12px 32px;
+        min-width: 320px;
+        border: none;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+        span {
+            float: right;
+        }
+        @media only screen and (max-width: 1400px) {
+            font-size: 14px;
+            min-width: 240px;
+        }
+    }
+    .btn-red {
+        background-color: #FF0000;
+        color: $color-white;
+    }
+    .btn-green {
+        background-color: $color-primary;
+        color: $color-white;
+    }
+    .btn-yellow {
+        background-color: $color-secondary;
+        color: $color-black;
+    }
+    .img-hero {
+        width: 100%;
+        max-height: 100vh;
+        object-fit: cover;
+    }
+    .second-hero {
+        margin-top: -20px;
+        padding: 60px 20%;
+        background-color: $color-secondary;
+        @media only screen and (max-width: 1000px) {
+            padding: 60px 5%;
+        }
+        button, p, h1, h5 {
+            margin: 12px auto;
+            color: $color-white;
+            text-align: center;
+        }
+    }
+    .header-image {
+        position: relative;
+        img {
+            object-fit: cover;
+            width: 100%;
+            max-height: 100vh;
+        }
+        .banner {
+            position: absolute;
+            bottom: -48px;
+            left: 120px;
+            background-color: $color-secondary;
+            padding: 18px 120px;
+            @media only screen and (max-width: 1100px) {
+                padding: 18px 0;
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            @media only screen and (max-width: 700px) {
+                padding: 8px 0 !important;
+            }
+            h1 {
+                color: $color-black;
+            }
+        }
+    }
+    .dosen-berprestasi {
+        padding: 90px 60px;
+        @media only screen and (max-width: 700px) {
+            padding: 30px 14px;
+        }
+        .input-wrapper {
+            margin: 48px auto;
+            display: flex;
+            justify-content: center;
+            gap: 2%;
+            @media only screen and (max-width: 700px) {
+                margin: 12px auto;
+                margin-bottom: 24px;
+            }
+            input {
+                background-color: $color-white-3;
+                width: 40%;
+                padding: 8px;
+                font-size: 18px;
+                border: none;
+                @media only screen and (max-width: 1000px) {
+                    width: 60%;
+                }
+                @media only screen and (max-width: 600px) {
+                    width: 65%;
+                }
+            }
+            button {
+                background-color: $color-secondary;
+                border: none;
+                border-radius: 4px;
+                color: $color-black;
+                font-size: 18px;
+                min-width: 100px;
+                @media only screen and (max-width: 700px) {
+                    padding: 12px 16px;
+                }
+            }
+        }
+        .card {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            @media only screen and (max-width: 700px) {
+                padding: 12px;
+            }
+            .prestasi-dropdown {
+                margin: 6px 0;
+                width: 100%;
+                padding: 8px 0;
+                h5 {
+                    color: $color-white;
+                }
+                .dropdown-title {
+                    cursor: pointer;
+                    width: 100%;
+                    background-color: $color-primary;
+                    color: $color-white;
+                    text-align: left;
+                    border-radius: 4px;
+                    padding: 12px 32px;
+                    font-size: 18px;
+                    line-height: 22px;
+                    @media only screen and (max-width: 1400px) {
+                        font-size: 16px;
+                    }
+                    .title {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        .icon, .dropdown-button { width: 40px;}
+                        .text {width: -webkit-fill-available;}
+                    }
+                    .material-icons {
+                        font-size: 42px;
+                        margin-right: 12px;
+                    }
+                }
+                .dropdown-content {
+                    display: none;
+                    border-collapse: collapse; 
+                    border-spacing: 0 2rem;
+                    table {
+                        text-align: left;
+                        width: 100%;
+                        thead {
+                            tr th p {
+                                font-weight: 800;
+                            }
+                        }
+                        tbody {
+                            background-color: $color-white-3;
+                        }
+                        a {
+                            width: 100px;
+                            display: flex;
+                            float: right;
+                            span {
+                                margin-left: 14px;
+                                color: $color-primary;
+                            }
+                        }
+                        td {
+                            height: 50px;
+                            padding: 4px 18px;
+                            vertical-align: middle;
+                        }
+                        tr td:last-child {
+                            width: 150px;
+                        }
+                        @media only screen and (max-width: 600px) {
+                            tr td:nth-child(2) {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .active {
+                .dropdown-title {
+                    background-color: $color-secondary;
+                }
+                .dropdown-content {
+                    display: block;
+                }
+            }
+        }
+    }
+    a.blue-link {
+        h4 {
+            color: blue;
+        }
+        text-decoration: underline;
+        color: blue;
+    }
+    h1.big-title {
+        text-align: left;
+        width: auto;
+        padding: 12px 0;
+    }
+    .big-title:before {
+        content : "";
+        position: absolute;
+        left   : 0;
+        bottom  : 0;
+        height  : 1px;
+        width   : 280px;
+        border-bottom: 8px solid $color-secondary;
+    }
+    .header-image {
+        position: relative;
+        .banner {
+            position: absolute;
+            bottom: -48px;
+            left: 120px;
+            background-color: $color-secondary;
+            padding: 18px 120px;
+            @media only screen and (max-width: 1100px) {
+                padding: 18px 0;
+                width: 90%;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            h1 {
+                color: $color-white;
+            }
+        }
+    }
+    .profile {
+        padding: 120px 90px;
+        padding-bottom: 0;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 5%;
+        @media only screen and (max-width: 900px) {
+            padding: 90px 40px;
+        }
+        @media only screen and (max-width: 700px) {
+            padding-bottom: 40px;
+        }
+        @media only screen and (max-width: 500px) {
+            padding: 90px 20px;
+        }
+        .profile-image {
+            width: 25%;
+            @media only screen and (max-width: 1600px) {
+                width: 30%;
+            }
+            @media only screen and (max-width: 1400px) {
+                width: 40%;
+            }
+            @media only screen and (max-width: 700px) {
+                width: 100%;
+            }
+            .card {
+                padding: 20px;
+                background-color: $color-white-3;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    max-height: 500px;
+                    @media only screen and (max-width: 700px) {
+                        max-height: 600px;
+                    }
+                }
+                .social-media {
+                    display: flex;
+                    justify-content: center;
+                    gap: 5%;
+                    img {
+                        width: 10%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+        .bio-profile {
+            width: 70%;
+            text-align: left;
+            @media only screen and (max-width: 1600px) {
+                width: 65%;
+            }
+            @media only screen and (max-width: 1400px) {
+                width: 55%;
+            }
+            @media only screen and (max-width: 700px) {
+                margin-top: 30px;
+                width: 100%;
+            }
+            p {
+                margin-top: 20px;
+            }
+        }
+    }
+    .sitasi, .latar-akademik, .penelitian-publikasi, .pengabdian-masyarakat, .peneliti-terbaik {
+        padding: 40px 90px;
+        padding-bottom: 0;
+        @media only screen and (max-width: 900px) {
+            padding: 0 40px;
+        }
+        @media only screen and (max-width: 500px) {
+            padding: 0 20px;
+        }
+    }
+    .unedited-form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin: 20px 0;
+        .item {
+            margin: 4px 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 2%;
+            div:first-child {
+                width: 25%;
+                @media only screen and (max-width: 1400px) {
+                    width: 38%;
+                }
+            }
+            div:last-child {
+                width: 73%;
+                @media only screen and (max-width: 1400px) {
+                    width: 60%;
+                }
+            }
+            span {
+                float: right;
+                @media only screen and (max-width: 700px) {
+                    float: initial;
+                    margin-left: 24px;
+                }
+            }
+            .button-list {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 12px;
+                @media only screen and (max-width: 700px) {
+                    margin-top: 8px;
+                }
+                .button-item {
+                    width: fit-content;
+                    button {
+                        width: fit-content;
+                        min-width: 100px;
+                        padding: 8px 24px;
+                        @media only screen and (max-width: 600px) {
+                            padding: 4px 12px;
+                            h4 {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .big-item {
+            @media only screen and (max-width: 700px) {
+                flex-wrap: wrap;
+                margin-bottom: 16px;
+                div:first-child {
+                    width: 50%;
+                }
+                div:last-child {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    table {
+        width: 100%;
+        margin: 30px 0;
+        tr td, tr th {
+            padding: 4px 8px;
+        }
+        tr {
+            th {
+                color: $color-white;
+                &:nth-child(7), &:nth-child(4) {
+                    @media only screen and (max-width: 800px) {
+                        display: none;
+                    }
+                }
+                &:nth-child(5) {
+                    @media only screen and (max-width: 700px) {
+                        display: none;
+                    }
+                }
+            }
+            td {
+                &:nth-child(7), &:nth-child(4) {
+                    @media only screen and (max-width: 800px) {
+                        display: none;
+                    }
+                }
+                &:nth-child(5) {
+                    @media only screen and (max-width: 700px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+        thead {
+            tr {
+                background-color: $color-primary;
+                td {
+                    p {
+                        color: $color-white;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                color: $color-black;
+                font-weight: 500;
+            }
+            th, td {
+                padding: 4px 8px;
+            }
+            tr:nth-child(odd) {
+                background-color: $color-white-2;
+            }
+            tr td:nth-child(2) {
+                text-align: left;
+                max-width: 300px;
+            }
+        }
+    }
+    .peneliti-terbaik {
+        margin-bottom: 90px;
+    }
+    .table-wrapper {
+        width: 100%;
+        margin: 30px 0;
+        padding: 20px;
+        background-color: $color-primary;
+        .table-transparent {
+            text-align: left;
+            tr {
+                td, th {
+                    padding: 12px 24px;
+                    font-size: 24px;
+                    line-height: 30px;
+                    @media only screen and (max-width: 600px) {
+                        padding: 8px 12px;
+                    }
+                    @media only screen and (max-width: 700px) {
+                        font-size: 20px;
+                        line-height: 26px;
+                    }
+                }
+                th:nth-child(2), td:nth-child(2) { 
+                    @media only screen and (max-width: 700px) {
+                        display: none;
+                    }
+                }
+            } 
+            tbody {
+                tr {
+                    background-color: $color-white;
+                }
+                a {
+                    color: $color-primary;
+                    display: flex;
+                    gap: 4px;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

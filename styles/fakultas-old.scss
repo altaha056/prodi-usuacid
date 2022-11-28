@@ -1,0 +1,2990 @@
+element.style {
+}
+.col-xs-6 {
+    width: 50%;
+}
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+    float: left;
+}
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+figure {
+    margin: 0;
+}
+figure {
+    margin: 0;
+}
+figure {
+    margin: 1em 40px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet div {
+    display: block;
+}
+
+// @media (max-width: 767px)
+.section-studies .gallery-caption {
+    margin-left: 0;
+    margin-right: 0;
+    border-left-width: 3px;
+}
+.section-studies .gallery-caption {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(0, 105, 55);
+    border: 0;
+    border-left: 4px solid #fdcb2c;
+    font-family: "Circular Std";
+    font-style: inherit;
+    height: 64px;
+    margin-top: -30px;
+    padding: 10px 15px;
+    z-index: 1;
+    text-align: center;
+}
+.gallery-item .gallery-caption {
+    border: 1px solid #e6e6e6;
+    border-top: none;
+    padding: 15px;
+    font-family: "Circular Std";
+    font-style: inherit;
+    line-height: 1.4;
+    font-size: 13px;
+    position: relative;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet figcaption {
+    display: block;
+}
+
+.gallery-item .gallery-img a:before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.instafeed > a:before,
+.instafeed > a:after,
+.gallery-item .gallery-img a:before,
+.gallery-item .gallery-img a:after,
+.portfolio-item .portfolio-img a:before,
+.portfolio-item .portfolio-img a:after,
+.slider-nav .gallery-item {
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.gallery-item .gallery-img a:after {
+    content: "\f48a";
+    font-size: 24px;
+    font-family: "Ionicons";
+    font-style: inherit;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+    margin-left: -14px;
+    margin-top: -14px;
+    opacity: 0;
+}
+.instafeed > a:before,
+.instafeed > a:after,
+.gallery-item .gallery-img a:before,
+.gallery-item .gallery-img a:after,
+.portfolio-item .portfolio-img a:before,
+.portfolio-item .portfolio-img a:after,
+.slider-nav .gallery-item {
+    -o-transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    background-color: transparent;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.box-imgtext .img-full {
+    margin-bottom: 30px;
+}
+
+// @media (min-width: 768px)
+.education-page img {
+    min-height: 340px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.img-full {
+    width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+//fakultas-home-department
+
+// @media (min-width: 768px)
+.homepage .schome-study {
+    margin-bottom: -40px;
+    margin-top: -20px;
+}
+.homepage .schome-study {
+    padding-top: 0px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.slick-slider * {
+    outline: none;
+}
+element.style {
+    opacity: 1;
+    width: 972px;
+    transform: translate3d(0px, 0px, 0px);
+}
+.schome-study__slider .slick-track {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+}
+.slick-slider * {
+    outline: none;
+}
+element.style {
+    width: 243px;
+}
+.schome-study__slider .slick-slide {
+    height: inherit;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none;
+}
+.slick-slider * {
+    outline: none;
+}
+.schome-study__box {
+    background-color: #ffa400;
+    -webkit-box-shadow: 0 7px 12px rgb(0 0 0 / 10%);
+    box-shadow: 0 7px 12px rgb(0 0 0 / 10%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.post {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    > a {
+        padding: 14px 30px;
+        line-height: 1.3;
+        color: $color-black;
+        font-family: "Public Sans";
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+    }
+}
+
+.schome-study__boxs {
+    background-color: rgb(0, 105, 55);
+    -webkit-box-shadow: 0 7px 12px rgb(0 0 0 / 10%);
+    box-shadow: 0 7px 12px rgb(0 0 0 / 10%);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &.post {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    > a {
+        padding: 14px 30px;
+        line-height: 1.3;
+        color: $color-white;
+        font-family: "Public Sans";
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+        display: block;
+    }
+}
+.section-studies {
+    .gallery > .row > [class*="col"] {
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        &:nth-child(even) {
+            .schome-study__boxs {
+                background-color: $color-secondary;
+                > a {
+                    color: $color-black;
+                }
+            }
+            .schome-study__box {
+                background-color: $color-secondary;
+                > a {
+                    color: $color-black;
+                }
+            }
+        }
+    }
+    .gallery-item {
+        margin: 0;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.slick-slider * {
+    outline: none;
+}
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+// @media (min-width: 768px)
+.schome-study__text {
+    line-height: 24px;
+}
+
+.schome-study__text {
+    color: #000000;
+    margin-bottom: 15px;
+}
+.slick-slider * {
+    outline: none;
+}
+
+// page program sarjana
+
+.section-page {
+    padding: 80px 0;
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+        padding: 40px 0;
+    }
+}
+
+// @media (min-width: 768px)
+.homepage-id .schome-pengabdian img {
+    margin-top: -60px;
+}
+.homepage-id .schome-pengabdian img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+// @media (min-width: 768px)
+.homepage-id .schome-pengabdian img {
+    margin-top: -60px;
+}
+
+.homepage-id .schome-pengabdian img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+.visible-xs {
+    display: none !important;
+}
+
+.section-page .section-title {
+    margin-bottom: 30px;
+}
+// @media (min-width: 768px)
+.homepage .section-title h2:after,
+.homepage .section-title h3:after {
+    width: 100px;
+}
+
+.section-page .section-title h3:after,
+.section-page .section-title h2:after {
+    content: "";
+    display: block;
+    margin: 20px auto 15px -40px;
+    width: 106px;
+    border-bottom: 4px solid rgb(0, 105, 55);
+}
+// @media (min-width: 768px)
+.section-page .section-box .section-subtitle {
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 660px;
+}
+
+.section-page .section-subtitle {
+    color: #646464;
+    font-size: 20px;
+    font-family: "Circular Std";
+    font-style: inherit;
+}
+.homepage-id .schome-pengabdian .custom-list {
+    max-width: 444px;
+    margin-bottom: 0;
+}
+
+.above-the-fold {
+    height: 644px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(sm) {
+        // height: calc(100vh - 58px);
+        margin-bottom: 30px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+    }
+    .page-desc {
+        position: absolute;
+        left: 0;
+        bottom: -50px;
+        padding: 30px 90px;
+        color: $color-black;
+        background-color: $color-secondary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0;
+            padding: 30px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                @include media-breakpoint-down(sm) {
+                    font-size: 26px;
+                    padding-right: 0;
+                    padding-bottom: 20px;
+                }
+            }
+            &__detail {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.4;
+                @include media-breakpoint-down(sm) {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.above-the-research {
+    height: 644px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 60px;
+    @include media-breakpoint-down(sm) {
+        height: calc(100vh - 58px);
+        margin-bottom: 30px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+    }
+    .page-desc {
+        position: absolute;
+        left: 0px;
+        bottom: -50px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0;
+            padding: 30px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                @include media-breakpoint-down(sm) {
+                    font-size: 26px;
+                    padding-right: 0px;
+                    padding-bottom: 20px;
+                }
+            }
+            &__detail {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.4;
+                @include media-breakpoint-down(sm) {
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+
+.about-USU {
+    height: 644px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 150px;
+    @include media-breakpoint-down(sm) {
+        height: calc(100vh - 58px);
+        margin-bottom: 30px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-desc {
+        position: absolute;
+        margin-left: 50px;
+        left: 10px;
+        bottom: -80px;
+        padding: 30px 100px;
+        color: $color-black;
+        background-color: $color-secondary;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0;
+            padding: 30px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                font-size: 50px;
+                @include media-breakpoint-down(sm) {
+                    font-size: 20px;
+                    padding-right: 10px;
+                    padding-bottom: 20px;
+                }
+            }
+            &__detail {
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 1.4;
+                @include media-breakpoint-down(sm) {
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-right: 60px;
+                }
+            }
+        }
+    }
+}
+
+.admission {
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+    @include media-breakpoint-down(sm) {
+        // height: calc(100vh - 58px);
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding: 20px 30px;
+            bottom: 20px;
+        }
+    }
+    .desc-add {
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        padding: 30px 90px;
+        color: $color-white;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            bottom: 0px;
+            padding: 30px;
+        }
+        .section-subtittle {
+            &__subtitle {
+                @include media-breakpoint-down(sm) {
+                    font-size: 26px;
+                    padding-right: 0;
+                    padding-bottom: 20px;
+                }
+            }
+            &__detail {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.4;
+                @include media-breakpoint-down(sm) {
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.admission-img {
+    background-color: #eeeeee;
+    height: 270px;
+    background-position: center;
+    margin-top: 0px;
+    @include media-breakpoint-down(sm) {
+        height: 0px;
+        margin-top: 100px;
+    }
+    @media only screen and (max-width: 1200px) {
+        height: 0px;
+        margin-top: 100px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+    }
+    .page-desc {
+        position: absolute;
+        top: -100px;
+        right: -20px;
+        left: -20px;
+        padding: 160px;
+        color: $color-black;
+        background-color: $color-secondary;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            padding: 15px;
+        }
+        @media only screen and (max-width: 1200px) {
+            padding: 15px;
+        }
+    }
+    .page-img {
+        position: absolute;
+        top: -60px;
+        right: 50px;
+        left: 50px;
+        padding: 10px 10px;
+        color: $color-black;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            height: auto;
+            left: 0px;
+            top: -10px;
+        }
+    }
+}
+
+.admission-number {
+    color: $color-black;
+    background-color: #eeeeee;
+    &__wrapper {
+        padding: 50px 0;
+        @include media-breakpoint-down(sm) {
+            padding: 120px 0;
+            margin-bottom: 0px;
+        }
+        @media only screen and (max-width: 1200px) {
+            padding: 120px 0;
+            margin-bottom: 0px;
+        }
+    }
+    &__campuslife {
+        top: -60px;
+        font-size: 100px;
+        font-weight: 500;
+        padding-left: 120px;
+        padding-right: 80px;
+        color: $color-black;
+        @include media-breakpoint-down(sm) {
+            font-size: 24px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 1250px) {
+            font-size: 24px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+    &__campusdetail {
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 120px;
+        padding-right: 80px;
+        color: $color-black;
+        @include media-breakpoint-down(sm) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 1250px) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+}
+
+.section-faculty-intro {
+    margin-bottom: 70px;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 30px;
+    }
+    .faculty-intro {
+        &__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 1.3;
+            color: $color-text;
+            margin-bottom: 80px;
+            @include media-breakpoint-down(sm) {
+                font-size: 22px;
+                line-height: 1.4;
+                margin-bottom: 30px;
+            }
+        }
+        &__image {
+            padding-bottom: 72px;
+            // background: linear-gradient(180deg, $color-white, $color-white 40%, $color-white-2 40%);
+            background: linear-gradient(180deg, $color-white-3, $color-white-3 60%, $color-white 40%);
+            @include media-breakpoint-down(sm) {
+                padding-bottom: 40px;
+            }
+            > .container > .row {
+                > [class*="col"] {
+                    &:first-child,
+                    &:last-child {
+                        padding-top: 60px;
+                        @include media-breakpoint-down(sm) {
+                            padding-top: 30px;
+                        }
+                    }
+                    &:first-child {
+                        .image {
+                            &:before {
+                                right: -10px;
+                                left: auto;
+                                transform: translateX(0);
+                                @include media-breakpoint-down(sm) {
+                                    right: -4px;
+                                }
+                            }
+                        }
+                    }
+                    &:last-child {
+                        .image {
+                            &:before {
+                                left: -10px;
+                                transform: translateX(0);
+                                @include media-breakpoint-down(sm) {
+                                    left: -4px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            img {
+                display: block;
+                max-width: 100%;
+                margin: 0 auto;
+                z-index: 2;
+                position: relative;
+            }
+            .image {
+                position: relative;
+                display: table;
+                width: auto;
+                margin: 0 auto;
+                max-width: 100%;
+                &:before {
+                    content: "";
+                    width: 90%;
+                    height: 30%;
+                    background-color: $color-secondary;
+                    position: absolute;
+                    z-index: 1;
+                    top: -10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    @include media-breakpoint-down(sm) {
+                        top: -4px;
+                    }
+                }
+            }
+        }
+        &__desc {
+            font-size: 20px;
+            color: $color-black;
+            line-height: 1.5;
+            padding-bottom: 70px;
+            background-color: $color-white-2;
+            p:last-child {
+                margin-bottom: 0;
+            }
+            @include media-breakpoint-down(sm) {
+                font-size: 14px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+
+.faculty-prospect {
+    margin-bottom: 70px;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+        @include media-breakpoint-down(sm) {
+            flex-direction: column;
+        }
+    }
+    &__image {
+        position: relative;
+        z-index: 1;
+        img {
+            width: 500px;
+            display: block;
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+            }
+        }
+    }
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 20px;
+        color: $color-black;
+        background-color: $color-white;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -14%;
+        z-index: 2;
+        line-height: 1.2;
+        @include media-breakpoint-down(sm) {
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 30px;
+            padding: 14px;
+        }
+    }
+    &__desc {
+        padding: 50px;
+        padding-left: 230px;
+        position: relative;
+        z-index: 1;
+        left: -10%;
+        background-color: $color-primary;
+        > p {
+            color: $color-white;
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        @include media-breakpoint-down(sm) {
+            left: 0;
+            top: -10%;
+            padding: 50px 20px 20px;
+        }
+    }
+}
+
+.section-contact {
+    color: $color-black;
+    &__wrapper {
+        padding: 50px 0;
+        border: 1px solid darken($color-white-2, 5%);
+        border-width: 1px 0;
+        @include media-breakpoint-down(sm) {
+            padding: 30px 0;
+        }
+    }
+    &__title {
+        font-size: 40px;
+        font-weight: 700;
+        margin-left: 100px;
+        @include media-breakpoint-down(sm) {
+            text-align: center;
+            margin-left: 0;
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+    }
+    .contact-item {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 20px;
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 10px;
+        }
+        &__label {
+            flex: 0 0 100px;
+            font-size: 16px;
+            font-weight: 700;
+            @include media-breakpoint-down(sm) {
+                font-size: 14px;
+            }
+        }
+        &__value {
+            font-size: 16px;
+            @include media-breakpoint-down(sm) {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.button-link {
+    margin-bottom: 70px;
+    margin-top: 5%;
+    @include media-breakpoint-down(sm) {
+        margin: 30px 0;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        padding: 10px;
+        color: $color-black;
+        background-color: $color-secondary;
+        position: relative;
+        transform: translateY(-50%);
+        margin-left: 42%;
+        z-index: 2;
+        line-height: 1.2;
+        @include media-breakpoint-down(sm) {
+            transform: translateY(0);
+            left: 0;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        @media only screen and (max-width: 1200px) {
+            transform: translateY(0);
+            left: 0;
+            display: block;
+            text-align: center;
+            font-size: 18px;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+    }
+}
+
+.section-subtittle {
+    color: $color-black;
+    &__wrapper {
+        padding: 50px 0;
+        border: 0px solid darken($color-white-2, 5%);
+        border-width: 0px 0;
+        @include media-breakpoint-down(sm) {
+            padding-top: 20px;
+        }
+        @include media-breakpoint-down(md) {
+            padding-top: 20px;
+        }
+    }
+    &__title {
+        font-size: 100px;
+        font-weight: 700;
+        padding-left: 250px;
+        @media only screen and (max-width: 1200px) {
+            font-size: 50px;
+            padding-left: 300px;
+        }
+        @media only screen and (max-width: 1000px) {
+            font-size: 50px;
+            padding-left: 200px;
+        }
+        @media only screen and (max-width: 770px) {
+            font-size: 50px;
+            padding-left: 0px;
+        }
+    }
+    &__subtitle {
+        font-size: 60px;
+        font-weight: 700;
+        padding-bottom: 30px;
+        padding-right: 50px;
+        @media only screen and (max-width: 1200px) {
+            font-size: 50px;
+            font-weight: 700;
+            padding-bottom: 30px;
+            padding-right: 50px;
+        }
+    }
+    &__detail {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.3;
+        @include media-breakpoint-down(sm) {
+            font-size: 20px;
+            line-height: 1.4;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 24px;
+            padding-left: 0px;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: center;
+        line-height: 1.3;
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+    }
+    &__content {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+    }
+}
+
+.section-image {
+    margin-bottom: 70px;
+    .faculty-intro {
+        &__image {
+            padding-bottom: 72px;
+            background: linear-gradient($color-white);
+            img {
+                display: block;
+                max-width: 100%;
+                margin: 0 auto;
+                z-index: 2;
+                position: relative;
+            }
+        }
+    }
+    .image {
+        &__image {
+            img {
+                width: 100%;
+                @include media-breakpoint-down(sm) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.section-faculty {
+    color: $color-black;
+    background-color: $color-primary;
+
+    &__wrapper {
+        padding: 50px 0;
+        border: 1px solid darken($color-white-2, 5%);
+        border-width: 1px 0;
+    }
+    &__title {
+        font-size: 60px;
+        font-weight: 700;
+        margin-left: 150px;
+        color: $color-secondary;
+        line-height: 1.2;
+        @include media-breakpoint-down(sm) {
+            font-size: 45px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 35px;
+            padding-left: 0;
+            margin-left: 200px;
+            text-align: left;
+        }
+    }
+    &__detail {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 150px;
+        margin-top: 20px;
+        color: $color-white;
+        line-height: 1.3;
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        @include media-breakpoint-down(md) {
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+    }
+}
+
+.above-campus {
+    background-color: #333333;
+    height: 270px;
+    background-position: center;
+    margin-top: 180px;
+    @include media-breakpoint-down(sm) {
+        height: 0px;
+        margin-top: 100px;
+    }
+    > .container {
+        position: relative;
+        height: 100%;
+    }
+    .page-title {
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        padding: 30px 90px;
+        color: $color-white;
+        background-color: $color-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 1;
+    }
+    .page-desc {
+        position: absolute;
+        top: -10px;
+        right: 50px;
+        left: 50px;
+        padding: 140px;
+        color: $color-black;
+        background-color: $color-secondary;
+        line-height: 1;
+        @include media-breakpoint-down(sm) {
+            padding: 15px;
+        }
+        @media only screen and (max-width: 1200px) {
+            padding: 15px;
+        }
+    }
+    .page-img {
+        position: absolute;
+        top: -60px;
+        right: 50px;
+        left: 50px;
+        padding: 10px 10px;
+        color: $color-black;
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            height: auto;
+            left: 0px;
+        }
+        @media only screen and (max-width: 1200px) {
+            width: 100%;
+            height: auto;
+            left: 0px;
+        }
+    }
+}
+
+.section-campus {
+    color: $color-black;
+    background-color: #333333;
+    @media only screen and (max-width: 1200px) {
+        margin-top: -150px;
+    }
+    @include media-breakpoint-down(sm) {
+        margin-top: 0px;
+    }
+    &__wrapper {
+        padding: 50px 0;
+    }
+    &__campuslife {
+        font-size: 100px;
+        font-weight: 700;
+        padding-left: 120px;
+        padding-right: 80px;
+        color: $color-white;
+        @include media-breakpoint-down(sm) {
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            line-height: 1.5;
+            margin-top: 70px;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 20px;
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            line-height: 1.5;
+            margin-top: 70px;
+        }
+    }
+    &__campusdetail {
+        font-size: 16px;
+        font-weight: 500;
+        padding-left: 120px;
+        padding-right: 80px;
+        color: $color-white;
+        @include media-breakpoint-down(sm) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: -30px;
+        }
+        @media only screen and (max-width: 1200px) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.5;
+            margin-bottom: -30px;
+        }
+    }
+}
+
+.section-facility {
+    color: $color-black;
+    background-color: $color-primary;
+    height: 300px;
+    @media only screen and (max-width: 1200px) {
+        height: 200px;
+    }
+    &__wrapper {
+        padding: 50px 0;
+        border: 1px solid darken($color-white-2, 5%);
+        border-width: 1px 0;
+    }
+    &__title {
+        font-size: 80px;
+        font-weight: 700;
+        margin-left: 150px;
+        color: $color-secondary;
+        line-height: 1;
+        margin-top: 80px;
+        @include media-breakpoint-down(sm) {
+            font-size: 45px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+            margin-top: 50px;
+        }
+        @media only screen and (max-width: 1200px) {
+            font-size: 45px;
+            margin-left: 150px;
+            text-align: left;
+            margin-top: 50px;
+        }
+    }
+    &__detail {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 150px;
+        margin-top: 100px;
+        color: $color-white;
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 1200px) {
+            margin-top: 70px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 780px) {
+            margin-top: 30px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+    }
+}
+.section-counceling {
+    color: $color-black;
+    background-color: #eeeeee;
+    height: 500px;
+    @include media-breakpoint-down(sm) {
+        height: 300px;
+    }
+    @media only screen and (max-width: 1200px) {
+        height: 300px;
+    }
+    &__wrapper {
+        padding: 50px 0;
+        border: 1px solid darken($color-white-2, 5%);
+        border-width: 1px 0;
+    }
+    &__title {
+        font-size: 80px;
+        font-weight: 700;
+        margin-left: 150px;
+        color: $color-primary;
+        line-height: 1;
+        margin-top: 100px;
+        padding-bottom: 40px;
+        @include media-breakpoint-down(sm) {
+            font-size: 45px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+            padding-bottom: 10px;
+            padding-top: 0px;
+        }
+        @media only screen and (max-width: 1400px) {
+            font-size: 45px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+            padding-bottom: 10px;
+            padding-top: 0px;
+        }
+    }
+    &__detail {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 20px;
+        margin-right: 150px;
+        padding-left: 130px;
+        color: $color-black;
+        line-height: 1.3;
+        @include media-breakpoint-down(sm) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            bottom: 0px;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 1350px) {
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            bottom: 0px;
+            font-size: 18px;
+            text-align: left;
+            line-height: 1.5;
+        }
+    }
+    &__titleabdimas {
+        font-size: 70px;
+        font-weight: 700;
+        margin-left: 150px;
+        color: $color-black;
+        line-height: 1;
+        margin-top: 100px;
+        padding-bottom: 40px;
+        @include media-breakpoint-down(sm) {
+            font-size: 30px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+            padding-bottom: 10px;
+            padding-top: 0px;
+            margin-top: 50px;
+        }
+        @media only screen and (max-width: 1350px) {
+            font-size: 40px;
+            padding-left: 0;
+            margin-left: 30px;
+            text-align: left;
+            padding-bottom: 10px;
+            padding-top: 0px;
+            margin-top: 50px;
+        }
+    }
+}
+
+.section-addmission {
+    color: $color-black;
+    background-color: $color-primary;
+    height: 600px;
+    @include media-breakpoint-down(sm) {
+        height: 200px;
+    }
+    @media only screen and (max-width: 1200px) {
+        height: 400px;
+    }
+    &__wrapper {
+        padding: 50px 0;
+        border: 1px solid darken($color-white-2, 5%);
+        border-width: 1px 0;
+    }
+    &__detail {
+        font-size: 28px;
+        font-weight: 500;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-top: 100px;
+        color: $color-white;
+        @include media-breakpoint-down(sm) {
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 14px;
+            text-align: left;
+            line-height: 1.5;
+        }
+        @media only screen and (max-width: 1200px) {
+            margin-top: 15px;
+            margin-left: 30px;
+            margin-right: 30px;
+            padding: 0;
+            font-size: 24px;
+            text-align: center;
+            line-height: 1.5;
+        }
+    }
+}
+
+.fakultas-sekolah-page {
+    .section-image {
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 30px;
+        }
+    }
+    .section-faculty {
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+.fakultas {
+    font-family: public sans;
+    text-align: center;
+    h1 {
+        font-size: 80px;
+        font-weight: 800;
+        color: $color-black;
+        line-height: 88px;
+        @media only screen and (max-width: 1000px) {
+            font-size: 60px;
+            line-height: 68px;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 48px;
+            line-height: 54px;
+        }
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 48px;
+    }
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 40px;
+        @media only screen and (max-width: 600px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    h4 {
+        font-size: 28px;
+        font-weight: 500;
+        color: $color-black;
+        line-height: 32px;
+        @media only screen and (max-width: 600px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    p {
+        font-size: 22px;
+        line-height: 28px;
+        color: $color-black;
+        font-weight: 500;
+        @media only screen and (max-width: 600px) {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    button {
+        padding: 12px 48px;
+        font-size: 24px;
+        font-weight: 500;
+        border-radius: 4px;
+        background-color: $color-white;
+        cursor: pointer;
+        gap: 8px;
+        img {
+            width: 28px;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 18px;
+        }
+    }
+    .btn-icon {
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        gap: 18px;
+        img {
+            min-width: 44px;
+        }
+    }
+    .btn-green {
+        background-color: $color-primary;
+        color: $color-white;
+        border: none;
+    }
+    .btn-yellow {
+        background-color: $color-secondary;
+        color: $color-white;
+        border: none;
+    }
+    .thin-scrollbar {
+        &::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            background-color: #f5f5f5;
+        }
+
+        &::-webkit-scrollbar {
+            width: 4px;
+            background-color: #f5f5f5;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            background-color: rgb(189, 189, 189);
+        }
+    }
+    .card-wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 10%;
+        p {
+            font-weight: 400;
+        }
+        .card {
+            margin-top: 60px;
+            .card-header {
+                background-color: $color-primary;
+                h3,
+                p {
+                    color: $color-white;
+                }
+            }
+            .card-body {
+                h2 {
+                    padding: 80px 0;
+                }
+                .item {
+                    margin: 28px 0;
+                    p {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .single-card .card {
+        width: 100%;
+        .card-body {
+            padding: 60px;
+            @media only screen and (max-width: 600px) {
+                padding: 20px;
+            }
+        }
+    }
+    .double-card .card {
+        width: 40%;
+        @media only screen and (max-width: 1200px) {
+            width: 90%;
+        }
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+        }
+    }
+    .img-hero {
+        object-fit: cover;
+        width: 100%;
+        max-height: 90vh;
+    }
+    .second-hero {
+        margin-top: -20px;
+        padding: 90px 20%;
+        background-color: $color-secondary;
+        @media only screen and (max-width: 1000px) {
+            padding: 40px 5%;
+        }
+        button,
+        p,
+        h1 {
+            margin: 12px 0;
+            color: $color-white;
+        }
+    }
+
+    .third-hero {
+        height: fit-content;
+        .carousel {
+            max-height: 70vh;
+            img {
+                height: 700px;
+                object-fit: cover;
+                @media only screen and (max-width: 1000px) {
+                    height: 500px;
+                }
+                @media only screen and (max-width: 700px) {
+                    height: auto;
+                }
+            }
+            .carousel-indicators {
+            }
+        }
+        .carousel-img {
+            width: 100vw;
+            height: auto;
+            object-fit: cover;
+            max-height: 700px;
+        }
+    }
+    .prodi {
+        background-color: $color-white-3;
+        padding: 90px 5%;
+        text-align: center;
+        @media only screen and (max-width: 780px) {
+            padding: 40px 5%;
+        }
+        h1 {
+            color: $color-black;
+            font-weight: 700;
+        }
+        .search-bar {
+            padding: 18px 0;
+            @media only screen and (max-width: 780px) {
+                width: 100%;
+                margin-right: 8px;
+            }
+            input {
+                background-color: $color-white;
+                width: 500px;
+                padding: 8px;
+                font-size: 18px;
+                border: none;
+                margin-right: 24px;
+                @media only screen and (max-width: 780px) {
+                    width: 65%;
+                    margin-right: 8px;
+                }
+            }
+            button {
+                background-color: $color-secondary;
+                padding: 8px 32px;
+                border: none;
+                border-radius: 4px;
+                color: $color-black;
+                font-size: 18px;
+                @media only screen and (max-width: 780px) {
+                    padding: 8px 18px;
+                }
+            }
+        }
+        .prodi-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 18px;
+            padding: 24px;
+            max-height: 320px;
+            overflow-y: auto;
+            @media only screen and (max-width: 780px) {
+                padding: 0;
+            }
+            p {
+                color: $color-white;
+            }
+            .card {
+                cursor: pointer;
+                border-radius: 4px;
+                background-color: $color-primary;
+                color: $color-white;
+                width: 30%;
+                height: auto;
+                padding: 12px;
+                box-shadow: 2px 4px 4px $color-white-3;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                .title {
+                    font-weight: 700;
+                }
+                @media only screen and (max-width: 1200px) {
+                    width: 40%;
+                }
+                @media only screen and (max-width: 780px) {
+                    width: 90%;
+                }
+            }
+            .active {
+                background-color: $color-secondary;
+                color: $color-black;
+            }
+        }
+    }
+    .visimisi {
+        padding: 90px 10%;
+        text-align: center;
+        @media only screen and (max-width: 600px) {
+            padding: 90px 5%;
+        }
+        &-card {
+            position: relative;
+            margin-top: 48px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            position: relative;
+            align-items: stretch;
+            &__left {
+                border-radius: 8px 0 0 8px;
+                width: 50%;
+                padding: 48px;
+                background-color: $color-secondary;
+                text-align: justify;
+                @media only screen and (max-width: 1400px) {
+                    border-radius: 8px;
+                    width: 100%;
+                }
+                @media only screen and (max-width: 700px) {
+                    padding: 32px 24px;
+                }
+                @media only screen and (max-width: 600px) {
+                    padding: 32px 12px;
+                }
+                h2,
+                p {
+                    color: $color-white;
+                    @media only screen and (max-width: 1100px) {
+                        text-align: center;
+                    }
+                }
+                &-item {
+                    margin-bottom: 12px;
+                }
+                &-button {
+                    margin-top: 32px;
+                    @media only screen and (max-width: 1100px) {
+                        text-align: center;
+                    }
+                }
+            }
+            &__right {
+                border-radius: 0 8px 8px 0;
+                width: 50%;
+                background: linear-gradient(0deg, rgba(9, 101, 55, 0.85), rgba(9, 101, 55, 0.85));
+                background-size: cover;
+                background-position: center;
+                @media only screen and (max-width: 1400px) {
+                    width: 0;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    z-index: -1;
+                    opacity: 0.2;
+                }
+            }
+        }
+    }
+    .prodi-detail {
+        background-color: $color-white;
+        padding: 90px 5%;
+        text-align: center;
+        @media only screen and (max-width: 780px) {
+            padding: 60px 5%;
+        }
+        .tab {
+            button {
+                cursor: pointer;
+                width: 200px;
+                padding: 8px 18px;
+                font-size: 18px;
+                background-color: $color-white;
+                border: 0.4px solid $color-black;
+                color: $color-black;
+                border-radius: 2px;
+                font-weight: 700;
+                @media only screen and (max-width: 780px) {
+                    font-size: 14px;
+                    width: 160px;
+                }
+            }
+            .active {
+                background-color: $color-primary;
+                color: $color-white;
+                border: 0.4px solid $color-primary;
+            }
+        }
+        .table-wrapper {
+            overflow: auto;
+        }
+        table {
+            width: 100%;
+            overflow: auto;
+            border-collapse: separate;
+            border-spacing: 0 4px;
+            th {
+                vertical-align: middle;
+            }
+            th,
+            td {
+                padding: 8px;
+            }
+            thead {
+                background-color: $color-primary;
+                color: $color-white;
+            }
+            tr th:not(:first-child),
+            td:not(:first-child) {
+                text-align: center;
+                width: 200px;
+            }
+            tr td:first-child {
+                min-width: 200px;
+                text-align: left;
+            }
+            tbody {
+                background-color: $color-white-3;
+                tr {
+                    margin: 4px 0;
+                }
+            }
+        }
+        .big-card {
+            margin-top: 24px;
+            width: 100%;
+            box-shadow: 4px 6px 4px $color-white-4;
+            .big-card-header {
+                background-color: $color-secondary;
+                color: $color-black;
+                padding: 14px;
+                .title {
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+                .title-single {
+                    font-weight: 800;
+                    font-size: 24px;
+                }
+                .subtitle {
+                    font-size: 14px;
+                    line-height: 14px;
+                }
+            }
+            .big-card-body {
+                color: $color-black;
+                padding: 48px;
+                @media only screen and (max-width: 780px) {
+                    padding: 48px 12px;
+                }
+                p {
+                    padding-bottom: 32px;
+                    font-style: italic;
+                }
+            }
+        }
+        .card-container {
+            margin: 48px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 80px;
+            .card {
+                width: 30%;
+                box-shadow: 4px 6px 4px $color-white-4;
+                @media only screen and (max-width: 780px) {
+                    width: 90%;
+                }
+                .card-head {
+                    color: $color-white;
+                    background-color: $color-primary;
+                    padding: 14px;
+                    .title {
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+                    .subtitle {
+                        font-size: 12px;
+                    }
+                }
+                .card-body {
+                    color: $color-black;
+                    font-weight: 700;
+                    padding: 48px 0;
+                    h1 {
+                        padding-top: 0;
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+    .contactus {
+        background-image: url("/images/pattern-design-usu-05.jpg");
+        padding: 90px 10%;
+        text-align: center;
+        color: $color-white;
+        h1,
+        p {
+            color: $color-white;
+        }
+        @media only screen and (max-width: 780px) {
+            padding: 40px 10%;
+        }
+        h1 {
+            padding-bottom: 32px;
+        }
+        button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 24px 0;
+            color: $color-white;
+            background-color: $color-secondary;
+            padding: 10px 50px;
+            border: none;
+            border-radius: 4px;
+            margin: 24px auto;
+            .material-icons {
+                margin-right: 12px;
+            }
+        }
+    }
+}
+
+.program-studi-old {
+    font-family: public sans;
+    width: 100vw;
+    .img-hero {
+        position: relative;
+        z-index: -10;
+        object-fit: cover;
+        width: 100%;
+        max-height: 100vh;
+    }
+    .second-hero {
+        margin-top: 0;
+        .banner {
+            margin-left: 32px;
+            padding: 8px 72px 8px 32px;
+            margin-top: -120px;
+            width: fit-content;
+            background-color: $color-dark-green;
+            font-size: 48px;
+            font-weight: 800;
+            line-height: 58px;
+            @media only screen and (max-width: 912px) {
+                font-size: 24px;
+                line-height: 28px;
+            }
+            .title {
+                color: $color-secondary;
+            }
+            .subtitle {
+                color: $color-white;
+            }
+        }
+        .description {
+            height: 460px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-between;
+            position: relative;
+            z-index: -1;
+            margin-top: -24px;
+            background-color: $color-secondary;
+            padding: 48px;
+            font-size: 42px;
+            color: $color-dark-green;
+            font-weight: 700;
+            line-height: 48px;
+            img {
+                object-fit: cover;
+            }
+            @media only screen and (max-width: 1400px) {
+                font-size: 42px;
+                line-height: 42px;
+            }
+            @media only screen and (max-width: 1272px) {
+                font-size: 34px;
+                line-height: 36px;
+            }
+            @media only screen and (max-width: 912px) {
+                padding: 12px;
+                height: fit-content;
+                padding-bottom: 48px;
+                font-size: 22px;
+                line-height: 24px;
+            }
+            .text {
+                order: 1;
+                width: 44%;
+                margin: 32px;
+                @media only screen and (max-width: 912px) {
+                    text-align: center;
+                    order: 2;
+                    width: 100%;
+                }
+            }
+            img {
+                order: 2;
+                max-height: 450px;
+                width: 40%;
+                height: fit-content;
+                margin: 32px;
+                box-shadow: 2px 2px 6px $color-black-2;
+                @media only screen and (max-width: 912px) {
+                    order: 1;
+                    margin: 0 auto;
+                    margin-top: 40px;
+                    width: 80%;
+                }
+            }
+        }
+    }
+    .third-hero {
+        padding: 90px 10%;
+    }
+    // .third-hero {
+    //     position: relative;
+    //     z-index: -2;
+    //     display: flex;
+    //     padding: 96px 5% 72px 5%;
+    //     background-color: $color-dark-green;
+    //     color: $color-white;
+    //     text-align: justify;
+    //     font-size: 26px;
+    //     line-height: 36px;
+    //     height: fit-content;
+    //     @media only screen and (max-width: 912px) {
+    //         flex-wrap: wrap;
+    //         padding: 48px;
+    //         font-size: 18px;
+    //         line-height: 24px;
+    //     }
+    //     img {
+    //         width: 400px;
+    //         height: 300px;
+    //         margin-right: 28px;
+    //         box-shadow: 2px 2px 6px $color-black-2;
+    //         @media only screen and (max-width: 912px) {
+    //             margin: 0 auto;
+    //             width: 100%;
+    //             height: fit-content;
+    //             margin-bottom: 36px;
+    //         }
+    //     }
+    // }
+    .fourth-hero {
+        position: relative;
+        display: flex;
+        height: 700px;
+        padding: 48px 15%;
+        padding-bottom: 0;
+        background: url("/images/kedokteran/pekarangan_fk.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media only screen and (max-width: 1100px) {
+            padding: 48px;
+            height: fit-content;
+        }
+        .person-akreditasi {
+            position: absolute;
+            bottom: 0;
+            width: 320px;
+            height: fit-content;
+            transition: all 0.5s linear;
+            opacity: 1;
+            @media only screen and (max-width: 1400px) {
+                display: none;
+                opacity: 0;
+            }
+        }
+        .sertifikat-akreditasi {
+            position: absolute;
+            right: 0;
+            margin: 32px;
+            margin-right: 20%;
+            text-align: center;
+            font-size: 48px;
+            width: 700px;
+            height: auto;
+            background-color: $color-white-4;
+            object-fit: cover;
+            @media only screen and (max-width: 1100px) {
+                position: relative;
+                margin: 0 auto;
+                width: 100%;
+                height: fit-content;
+                margin-bottom: 36px;
+            }
+        }
+    }
+    .single-card-hero {
+        height: 800px;
+        padding: 48px 15%;
+        img {
+            width: 400px;
+            margin-left: 180px;
+        }
+        .card-container {
+            margin: 120px 25%;
+            .card {
+                .card-body {
+                    padding: 24px 80px 48px 80px;
+                }
+            }
+            @media only screen and (max-width: 1300px) {
+                margin: 120px 5%;
+            }
+        }
+    }
+    .multiple-card-hero {
+        height: 800px;
+        padding: 48px 15%;
+        .card-container {
+            margin: 120px 15%;
+            .card {
+                .card-body {
+                    padding: 24px 60px 48px 60px;
+                }
+            }
+            @media only screen and (max-width: 1300px) {
+                margin: 120px 5%;
+            }
+        }
+        img {
+            width: 400px;
+        }
+        @media only screen and (max-width: 1400px) {
+            padding: 48px 8%;
+        }
+        @media only screen and (max-width: 1300px) {
+            height: 1050px;
+        }
+        @media only screen and (max-width: 880px) {
+            height: 1300px;
+        }
+        @media only screen and (max-width: 440px) {
+            height: 1600px;
+        }
+    }
+    .fifth-hero {
+        position: relative;
+        h1 {
+            position: absolute;
+            font-size: 48px;
+            color: $color-black;
+            font-weight: 600;
+            top: 96px;
+            left: 0;
+            transform-origin: left;
+            transition: all 0.5s linear;
+            transform: rotate(-90deg) translate(-350px, 100px);
+            @media only screen and (max-width: 1300px) {
+                transform: rotate(0deg) translate(48px, -70px);
+            }
+            @media only screen and (max-width: 880px) {
+                font-size: 36px;
+            }
+        }
+        h1:before {
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 1px;
+            width: 80%;
+            border-bottom: 2px solid $color-secondary;
+            @media only screen and (max-width: 1300px) {
+                left: 0;
+            }
+        }
+        img {
+            position: absolute;
+            bottom: 0;
+            height: fit-content;
+            transition: all 0.5s linear;
+            opacity: 1;
+            @media only screen and (max-width: 1400px) {
+                display: none;
+                opacity: 0;
+            }
+        }
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 0;
+            right: 0;
+            text-align: center;
+            @media only screen and (max-width: 1300px) {
+                left: 0;
+                .two-card-wrapper {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            @media only screen and (max-width: 880px) {
+                .two-card-wrapper {
+                    flex-wrap: wrap;
+                }
+            }
+            .card {
+                width: fit-content;
+                border-radius: 12px;
+                box-shadow: 4px 6px 8px $color-white-4;
+                overflow: hidden;
+                margin: 24px;
+                @media only screen and (max-width: 1300px) {
+                    width: 100%;
+                }
+                .card-head {
+                    padding: 14px;
+                    .title {
+                        font-weight: 800;
+                        font-size: 20px;
+                        line-height: 20px;
+                    }
+                    .subtitle {
+                        font-size: 16px;
+                    }
+                }
+                .card-body {
+                    background-color: $color-white;
+                    color: $color-black;
+                    @media only screen and (max-width: 880px) {
+                        padding: 24px;
+                    }
+                    h1 {
+                        padding-top: 0;
+                        font-size: 28px;
+                    }
+                    h2 {
+                        font-weight: 800;
+                        font-size: 32px;
+                    }
+                    p {
+                        font-style: italic;
+                        padding-bottom: 24px;
+                        line-height: 18px;
+                    }
+                    .spp {
+                        font-weight: 800;
+                        font-style: normal;
+                    }
+                    table {
+                        border-collapse: separate;
+                        border-spacing: 0 8px;
+                        font-weight: 500;
+                        width: 100%;
+                        tr {
+                            background-color: #f0f1b4;
+                            margin: 8px 0;
+                        }
+                        td {
+                            padding: 0 12px;
+                        }
+                        td:first-child {
+                            text-align: left;
+                        }
+                        td:last-child {
+                            text-align: right;
+                        }
+                    }
+                    .annotation {
+                        padding-top: 12px;
+                        font-size: 14px;
+                        color: #ff0000;
+                        text-align: right;
+                        font-style: normal;
+                    }
+                    .center {
+                        text-align: center;
+                    }
+                    hr {
+                        width: 80%;
+                        margin: 24px auto;
+                        border-top: 2px solid $color-secondary;
+                    }
+                    .biaya-masuk {
+                        .biaya {
+                            margin: 14px 0;
+                            h2:first-child {
+                                font-size: 16px;
+                            }
+                            h2:last-child {
+                                font-size: 32px;
+                            }
+                        }
+                    }
+                }
+            }
+            .card-primary .card-head {
+                color: $color-white;
+                background-color: $color-primary;
+            }
+            .card-secondary .card-head {
+                color: $color-black;
+                background-color: $color-secondary;
+            }
+            .card-orange .card-head {
+                color: $color-black;
+                background-color: $color-orange;
+            }
+            .card-purple .card-head {
+                color: $color-white;
+                background-color: #4b0066;
+            }
+        }
+    }
+    .p-0 {
+        padding: 0;
+    }
+    .contactus {
+        position: relative;
+        padding: 48px 10%;
+        height: 540px;
+        background-color: $color-dark-green;
+        color: $color-white;
+        @media only screen and (max-width: 1375px) {
+            height: fit-content;
+        }
+        h1 {
+            font-size: 48px;
+            line-height: 72px;
+            margin-bottom: 32px;
+            width: fit-content;
+            border-bottom: 2px solid $color-secondary;
+            font-weight: 800px;
+        }
+        h2 {
+            color: $color-secondary;
+            font-size: 20px;
+            font-weight: 800px;
+        }
+        .contact-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            div {
+                margin-right: 60px;
+            }
+            .contact-item {
+                display: flex;
+                margin: 12px 0;
+                span {
+                    padding-right: 18px;
+                }
+                img {
+                    -webkit-filter: invert(100%); /* Safari/Chrome */
+                    filter: invert(100%);
+                    width: 24px;
+                    margin-right: 18px;
+                    color: white;
+                }
+            }
+        }
+        button {
+            display: flex;
+            text-align: center;
+            margin: 0 auto;
+            background-color: $color-secondary;
+            color: $color-black;
+            font-weight: 500;
+            font-size: 24px;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            margin-top: 48px;
+            .material-icons {
+                font-size: 32px;
+                margin-right: 12px;
+            }
+            span:last-child {
+                margin-top: -6px;
+            }
+        }
+    }
+}
+
+.program-studi {
+    max-width: 100vw;
+    text-align: center;
+    .italic {
+        font-style: italic;
+    }
+    .main-image {
+        object-fit: cover;
+        width: 100%;
+        max-height: 90vh;
+        @media only screen and (max-width: 1600px) {
+            max-height: 70vh;
+        }
+    }
+    h1 {
+        font-size: 80px;
+        font-weight: 800;
+        color: $color-black;
+        line-height: 88px;
+        @media only screen and (max-width: 1000px) {
+            font-size: 60px;
+            line-height: 68px;
+        }
+        @media only screen and (max-width: 600px) {
+            font-size: 48px;
+            line-height: 54px;
+        }
+    }
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 48px;
+    }
+    h3 {
+        font-size: 32px;
+        font-weight: 700;
+        color: $color-black;
+        line-height: 40px;
+        @media only screen and (max-width: 600px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    h4 {
+        font-size: 28px;
+        font-weight: 500;
+        color: $color-black;
+        line-height: 32px;
+        @media only screen and (max-width: 600px) {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    p {
+        font-size: 24px;
+        line-height: 28px;
+        color: $color-black;
+        font-weight: 500;
+        @media only screen and (max-width: 600px) {
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    button {
+        padding: 12px 48px;
+        font-size: 24px;
+        font-weight: 500;
+        border-radius: 4px;
+        background-color: $color-white;
+        cursor: pointer;
+        @media only screen and (max-width: 600px) {
+            font-size: 18px;
+        }
+    }
+    .btn-icon {
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+        img {
+            padding-top: 5px;
+            min-width: 32px;
+            @media only screen and (max-width: 600px) {
+                padding-top: 0;
+            }
+        }
+    }
+    .btn-green {
+        background-color: $color-primary;
+        color: $color-white;
+        border: none;
+    }
+    .btn-yellow {
+        background-color: $color-secondary;
+        color: $color-white;
+        border: none;
+    }
+    .card-wrapper {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 10%;
+        p {
+            font-weight: 400;
+        }
+        .card {
+            margin-top: 60px;
+            .card-header {
+                background-color: $color-primary;
+                h3,
+                p {
+                    color: $color-white;
+                }
+            }
+            .card-body {
+                .item {
+                    margin: 28px 0;
+                    p {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .single-card .card {
+        width: 100%;
+        .card-body {
+            padding: 60px;
+            @media only screen and (max-width: 600px) {
+                padding: 20px;
+            }
+        }
+    }
+    .double-card .card {
+        width: 40%;
+        @media only screen and (max-width: 1200px) {
+            width: 90%;
+        }
+        @media only screen and (max-width: 500px) {
+            width: 100%;
+        }
+    }
+    .mahasiswa-baru {
+        margin-top: -20px;
+        padding: 90px 20%;
+        background-color: $color-primary;
+        @media only screen and (max-width: 1000px) {
+            padding: 90px 5%;
+        }
+        @media only screen and (max-width: 600px) {
+            padding: 40px 5%;
+        }
+        button,
+        p,
+        h1 {
+            margin: 12px 0;
+            color: $color-white;
+        }
+    }
+    .prodi-description {
+        margin: 120px;
+        margin-top: 100px;
+        background-color: $color-secondary;
+        border-radius: 8px;
+        padding: 60px;
+        @media only screen and (max-width: 1000px) {
+            padding: 40px 5%;
+            margin: 60px;
+            margin-bottom: 90px;
+        }
+        @media only screen and (max-width: 600px) {
+            margin: 20px;
+            margin-bottom: 50px;
+        }
+        @media only screen and (max-width: 450px) {
+            margin: 0;
+            margin-top: -20px;
+        }
+        p,
+        h1 {
+            margin: 12px 0;
+            color: $color-white;
+        }
+    }
+    .sertifikat-akreditasi {
+        padding: 90px 10%;
+        color: $color-black;
+        p {
+            margin: 32px 0;
+        }
+        .image-wrapper {
+            margin: 0 auto;
+            width: 60%;
+            padding: 48px;
+            background: url("/images/pattern-design-usu-05.jpg");
+            object-fit: cover;
+            @media only screen and (max-width: 1000px) {
+                width: 100%;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .biaya-dan-kelebihan {
+        .tab {
+            padding: 0 5%;
+            button {
+                width: 300px;
+                box-shadow: 0px 0px 0px 1px black inset;
+                font-weight: 800;
+                border: none;
+                @media only screen and (max-width: 600px) {
+                    width: 243px;
+                }
+            }
+            .active {
+                background-color: $color-primary;
+                color: $color-white;
+                box-shadow: none;
+            }
+        }
+        .tab-content {
+            display: none;
+            padding: 90px 10%;
+        }
+        .active-content {
+            display: block;
+        }
+        .biaya-pendidikan {
+            .subtitle {
+                margin: 32px 0;
+            }
+        }
+    }
+    .biaya-pendidikan {
+        padding: 90px 10%;
+        @media only screen and (max-width: 1000px) {
+            padding: 40px 5%;
+        }
+        @media only screen and (max-width: 700px) {
+            padding: 40px 2%;
+        }
+        p {
+            margin: 18px 0;
+        }
+        .table-wrapper {
+            padding: 60px;
+            background-color: $color-white-3;
+            overflow-x: auto;
+            @media only screen and (max-width: 700px) {
+                padding: 30px 20px;
+            }
+            table {
+                width: 100%;
+                border-collapse: separate;
+                border-spacing: 0 8px;
+                th,
+                td {
+                    &:first-child {
+                        text-align: left;
+                    }
+                }
+                th {
+                    padding: 18px 24px;
+                    color: $color-white;
+                    @media only screen and (max-width: 700px) {
+                        padding: 18px 8px;
+                    }
+                }
+                td {
+                    padding: 4px 24px;
+                    @media only screen and (max-width: 700px) {
+                        padding: 4px 8px;
+                    }
+                }
+                tr {
+                    background-color: $color-primary;
+                    th:first-child,
+                    td:first-child {
+                        border-radius: 4px 0 0 4px;
+                    }
+                    th:last-child,
+                    td:last-child {
+                        border-radius: 0 4px 4px 0;
+                    }
+                }
+                tbody {
+                    tr {
+                        background-color: $color-white;
+                        color: $color-black;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    .contact-us {
+        padding: 90px 20%;
+        background: url("/images/pattern-design-usu-05.jpg");
+        object-fit: cover;
+        @media only screen and (max-width: 1000px) {
+            padding: 90px 5%;
+        }
+        &-description {
+            padding: 36px 0;
+        }
+        button {
+            margin-top: 24px;
+        }
+        h1,
+        p {
+            color: $color-white;
+        }
+        p {
+            margin: 0;
+        }
+    }
+}
+.mt-4 {
+    margin-top: 60px !important;
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "fakultas-kedokteran",
+    "title": "Fakutas Kedokteran",
+    "image": "/images/fk_hero.jpg",
+    "url": "#",
+    "subtitle": "Kami adalah pusat unggulan pendidikan dokter tropis dan onkologi pencegahan di Asia Tenggara",
+    "carouselImage": [
+      {
+        "title": "Fakutas Kedokteran",
+        "src": "/images/kedokteran/doctors.jpg"
+      },
+      {
+        "title": "Fakutas Kedokteran",
+        "src": "/images/kedokteran/fk_pulmonologi.jpg"
+      }
+    ],
+    "prodi": [
+      { "title": "Program Sarjana", "subtitle": "S1 Pendidikan Dokter" },
+      { "title": "Program Profesi", "subtitle": "Bedah Syaraf" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Bedah" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Kedokteran Anastesi" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Kedokteran Forensik" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Orthopedi/Traumatologi" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Patologi Anatomi" },
+      { "title": "Program Profesi", "subtitle": "Ilmu Patologi Klinik" },
+      {
+        "title": "Program Profesi",
+        "subtitle": "Ilmu Penyakit Kulit dan kelamin"
+      }
+    ],
+    "program": [
+      {
+        "slug": "sarjana",
+        "title": "Program Sarjana",
+        "type": "card",
+        "description": "Kami adalah pusat unggulan pendidikan dokter tropis dan onkologi pencegahan di Asia Tenggara",
+        "list": [
+          {
+            "program": "Program Dokter / Semester",
+            "jalur": "Jalur Mandiri",
+            "harga": "Rp32.500.000,-"
+          },
+          {
+            "program": "Program Dokter / Semester",
+            "jalur": "Jalur Mandiri Internasional",
+            "harga": "Rp40.000.000,-"
+          }
+        ]
+      },
+      {
+        "slug": "profesi",
+        "title": "Program Profesi",
+        "program": "Profesi Dokter",
+        "jenjang": "Jenjang Pendidikan Spesialis",
+        "type": "table",
+        "header": [
+          "Program Studi",
+          "Sumbangan Pembinaan Pendidikan (SPP)",
+          "Dana Kelengkapan Akademik (DKA",
+          "Pendaftaran"
+        ],
+        "body": [
+          [
+            "Ilmu Kebidanan dan Penyakit Kandungan",
+            "Rp15.000.000,-",
+            "Rp7.000.000,-",
+            "Rp25.000.000,-"
+          ]
+        ]
+      },
+      {
+        "slug": "magister",
+        "title": "Program Magister",
+        "program": "Magister Dokter",
+        "jenjang": "Jenjang Pendidikan Magister",
+        "type": "table",
+        "header": [
+          "Program Studi",
+          "Sumbangan Pembinaan Pendidikan (SPP)",
+          "Dana Kelengkapan Akademik (DKA",
+          "Pendaftaran"
+        ],
+        "body": [
+          [
+            "Ilmu Kebidanan dan Penyakit Kandungan",
+            "Rp15.000.000,-",
+            "Rp7.000.000,-",
+            "Rp25.000.000,-"
+          ]
+        ]
+      },
+      {
+        "slug": "doktoral",
+        "title": "Program Doktoral",
+        "program": "Jenjang Pendidikan Doktoral",
+        "type": "table",
+        "header": [
+          "Program Studi",
+          "Sumbangan Pembinaan Pendidikan (SPP)",
+          "Dana Kelengkapan Akademik (DKA",
+          "Pendaftaran"
+        ],
+        "body": [
+          [
+            "Ilmu Kebidanan dan Penyakit Kandungan",
+            "Rp15.000.000,-",
+            "Rp7.000.000,-",
+            "Rp25.000.000,-"
+          ]
+        ]
+      }
+    ]
+  }
+]
