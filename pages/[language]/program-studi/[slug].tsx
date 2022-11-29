@@ -221,24 +221,22 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
 
           {prodiData && (
             <div className="prodi">
-              <div className="content-section">
-                <div className="biaya-pendidikan">
-                  <div className="judul">
-                    <h1>Biaya Pendidikan</h1>
-                    <p>{prodiData.title}</p>
-                  </div>
-                  <div className="container">
-                    {prodiData.content.biayaPendidikan.map((x) => (
-                      <div className="item">
-                        <div className="jenis">
-                          <p>{x.tingkat}</p>
-                        </div>
-                        <div className="biaya">
-                          <p>{x.biaya}</p>
-                        </div>
+              <div className="biaya-pendidikan">
+                <div className="judul">
+                  <h1>Biaya Pendidikan</h1>
+                  <p>{prodiData.title}</p>
+                </div>
+                <div className="container">
+                  {prodiData.content.biayaPendidikan.map((x) => (
+                    <div className="item">
+                      <div className="jenis">
+                        <p>{x.tingkat}</p>
                       </div>
-                    ))}
-                  </div>
+                      <div className="biaya">
+                        <p>{x.biaya}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
