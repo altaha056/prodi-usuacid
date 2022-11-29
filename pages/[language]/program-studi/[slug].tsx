@@ -207,9 +207,9 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
             <h1>Kelompok Keilmuan</h1>
             <div className="slider">
               {/* <div className="icon-slider">←</div> */}
-              <div className="container">
+              <div className="container-kelompok-keilmuan">
                 {prodiData.content.kelompokKeilmuan.map((x) => (
-                  <div className="item">
+                  <div className="item-kelompok-keilmuan">
                     <img src={x.image} alt="" />
                     <p>{x.label}</p>
                   </div>
