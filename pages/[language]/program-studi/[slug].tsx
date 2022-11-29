@@ -12,6 +12,7 @@ import checkLanguage, { selectLanguage } from 'helpers/check-language';
 import FacultiesModel, { FacultiesMaker } from '@/models/faculties';
 import axios from '@/config/sirenbang-axios';
 import LoadingSSO from '@/page-components/common/loading';
+import { Button, Modal } from 'antd';
 
 export interface Prodi {
   title: string;
@@ -44,6 +45,7 @@ export interface Content {
 export interface KelompokKeilmuan {
   label: string;
   image: string;
+  deskripsi: string;
 }
 export interface BiayaPendidikan {
   tingkat: string;
@@ -91,6 +93,12 @@ export const getServerSideProps = async (
 const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
   const router = useRouter();
   const { language, slug } = router.query;
+  const [modal2Open, setModal2Open] = useState(false);
+  const [objectModal, setObjectModal] = useState<KelompokKeilmuan>();
+  const munculPesan = (judul: KelompokKeilmuan) => {
+    setObjectModal(judul);
+    setModal2Open(true);
+  };
 
   return (
     <>
@@ -203,21 +211,63 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
             </div>
           )}
 
-          <div className="kelompok-keilmuan">
-            <h1>Kelompok Keilmuan</h1>
-            <div className="slider">
-              {/* <div className="icon-slider">←</div> */}
-              <div className="container-kelompok-keilmuan">
-                {prodiData.content.kelompokKeilmuan.map((x) => (
-                  <div className="item-kelompok-keilmuan">
-                    <img src={x.image} alt="" />
-                    <p>{x.label}</p>
-                  </div>
-                ))}
+          {prodiData && (
+            <div className="kelompok-keilmuan">
+              <h1>Kelompok Keilmuan</h1>
+              <div className="slider">
+                <div className="container-kelompok-keilmuan">
+                  {prodiData.content.kelompokKeilmuan.map((x, i) => (
+                    <div
+                      className="item-kelompok-keilmuan"
+                      key={i}
+                      onClick={() => munculPesan(x)}
+                    >
+                      <img src={x.image} alt="" />
+                      <p>{x.label}</p>
+                    </div>
+                  ))}
+
+                  <Modal
+                    centered
+                    open={modal2Open}
+                    onOk={() => setModal2Open(false)}
+                    onCancel={() => setModal2Open(false)}
+                    footer={[]}
+                  >
+                    <h1
+                      style={{
+                        fontSize: '24px',
+                        fontWeight: '600',
+                        textAlign: 'left',
+                      }}
+                    >
+                      {objectModal?.label}
+                    </h1>
+                    <img
+                      src={objectModal?.image}
+                      alt={objectModal?.label}
+                      style={{
+                        width: '100%',
+                        maxHeight: '150px',
+                        objectFit: 'cover',
+                        margin: '20px 0px',
+                        borderRadius: '10px',
+                      }}
+                    />
+                    <p
+                      style={{
+                        fontSize: '16px',
+                        fontWeight: '400',
+                        textAlign: 'justify',
+                      }}
+                    >
+                      {objectModal?.deskripsi}
+                    </p>
+                  </Modal>
+                </div>
               </div>
-              {/* <div className="icon-slider">→</div> */}
             </div>
-          </div>
+          )}
 
           {prodiData && (
             <div className="prodi">
@@ -241,6 +291,7 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
               </div>
             </div>
           )}
+
           {prodiData && (
             <div className="kontak">
               <div className="konten">

@@ -10,6 +10,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "animated-number-react": "^0.1.1",
+    "antd": "^5.0.2",
     "axios": "^0.21.4",
     "babel-plugin-import": "^1.13.3",
     "classnames": "^2.3.1",
