@@ -15,6 +15,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/[language]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/[language].js"
+    ],
     "/[language]/program-studi/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

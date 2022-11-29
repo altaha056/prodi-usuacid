@@ -38,6 +38,12 @@ export interface Content {
   youtube: string;
   facebook: string;
   instagram: string;
+  kelompokKeilmuan: KelompokKeilmuan[];
+}
+
+export interface KelompokKeilmuan {
+  label: string;
+  image: string;
 }
 export interface BiayaPendidikan {
   tingkat: string;
@@ -202,55 +208,12 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
             <div className="slider">
               {/* <div className="icon-slider">←</div> */}
               <div className="container">
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Machine Learning</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=820&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Heuristic</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Cryptography</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>IT Audit</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Programming</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Data Analytic</p>
-                </div>
-                <div className="item">
-                  <img
-                    src="https://images.unsplash.com/photo-1661961110218-35af7210f803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-                    alt="kelompok keilmuan"
-                  />
-                  <p>Microcontroller</p>
-                </div>
+                {prodiData.content.kelompokKeilmuan.map((x) => (
+                  <div className="item">
+                    <img src={x.image} alt="" />
+                    <p>{x.label}</p>
+                  </div>
+                ))}
               </div>
               {/* <div className="icon-slider">→</div> */}
             </div>

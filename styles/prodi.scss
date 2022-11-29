@@ -1,6 +1,7 @@
 .prodi {
   width: auto;
   margin: auto;
+
   h1 {
     font-family: Public Sans;
     font-size: 44px;
@@ -667,10 +668,10 @@
       flex-wrap: wrap;
       width: 100%;
       min-width: 100%;
-      gap: 20px;
+      gap: 30px;
       justify-content: center;
       .item {
-        width: 300px;
+        width: 400px;
         min-height: 100px;
         border-radius: 5px;
         box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.034),
@@ -679,13 +680,13 @@
         p {
           text-align: left;
           font-weight: 700;
-          font-size: 28px;
+          font-size: 24px;
 
           @media only screen and (max-width: 1400px) {
-            font-size: 28px;
+            font-size: 24px;
           }
           @media only screen and (max-width: 1100px) {
-            font-size: 24px;
+            font-size: 20px;
           }
           @media only screen and (max-width: 700px) {
             font-size: 18px;
@@ -727,10 +728,31 @@
       font-weight: 700;
       color: #333333;
     }
+
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
+
+    /* custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background-color: #d6dee1;
+      border-radius: 10px;
+      border: 6px solid transparent;
+      background-clip: content-box;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #a8bbbf;
+    }
     .slider {
       display: flex;
       flex-direction: row;
@@ -748,18 +770,19 @@
         align-items: center;
         align-content: center;
         gap: 30px;
+
         .item {
-          width: 360px;
-          min-width: 360px;
-          height: 230px;
+          width: 400px;
+          min-width: 400px;
+          height: auto;
           background-color: white;
           display: flex;
           justify-content: center;
           align-items: center;
           margin-top: 40px;
           flex-direction: column;
-          gap: 15px;
-          padding: 20px;
+          gap: 20px;
+          padding: 20px 20px;
           border-radius: 15px;
           @media only screen and (max-width: 1400px) {
             border-radius: 15px;
@@ -774,7 +797,7 @@
             margin-top: 20px;
           }
           img {
-            height: 150px;
+            height: 160px;
             width: 100%;
             object-fit: cover;
           }
