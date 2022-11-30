@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { Button, Modal } from 'antd';
 
 import { GA_TRACKING_ID } from '../utils/gtag';
 

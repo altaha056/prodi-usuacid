@@ -14,6 +14,7 @@ import { AxiosResponse } from 'axios';
 import 'assets/scss/style.scss';
 import '../styles/globals.scss';
 import * as gtag from '../utils/gtag';
+import { Button, Modal } from 'antd';
 
 Router.events.on('routeChangeStart', () => NProgress.start());
 Router.events.on('routeChangeComplete', () => NProgress.done());
