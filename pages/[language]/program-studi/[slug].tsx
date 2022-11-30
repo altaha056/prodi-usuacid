@@ -226,45 +226,46 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
                       <p>{x.label}</p>
                     </div>
                   ))}
+
+                  <Modal
+                    centered
+                    open={modal2Open}
+                    onOk={() => setModal2Open(false)}
+                    onCancel={() => setModal2Open(false)}
+                    footer={[]}
+                  >
+                    <h1
+                      style={{
+                        fontSize: '24px',
+                        fontWeight: '600',
+                        textAlign: 'left',
+                      }}
+                    >
+                      {objectModal?.label}
+                    </h1>
+                    <img
+                      src={objectModal?.image}
+                      alt={objectModal?.label}
+                      style={{
+                        width: '100%',
+                        maxHeight: '150px',
+                        objectFit: 'cover',
+                        margin: '20px 0px',
+                        borderRadius: '10px',
+                      }}
+                    />
+                    <p
+                      style={{
+                        fontSize: '16px',
+                        fontWeight: '400',
+                        textAlign: 'justify',
+                      }}
+                    >
+                      {objectModal?.deskripsi}
+                    </p>
+                  </Modal>
                 </div>
               </div>
-              <Modal
-                centered
-                open={modal2Open}
-                onOk={() => setModal2Open(false)}
-                onCancel={() => setModal2Open(false)}
-                footer={[]}
-              >
-                <h1
-                  style={{
-                    fontSize: '24px',
-                    fontWeight: '600',
-                    textAlign: 'left',
-                  }}
-                >
-                  {objectModal?.label}
-                </h1>
-                <img
-                  src={objectModal?.image}
-                  alt={objectModal?.label}
-                  style={{
-                    width: '100%',
-                    maxHeight: '150px',
-                    objectFit: 'cover',
-                    margin: '20px 0px',
-                    borderRadius: '10px',
-                  }}
-                />
-                <p
-                  style={{
-                    fontSize: '16px',
-                    fontWeight: '400',
-                    textAlign: 'justify',
-                  }}
-                >
-                  {objectModal?.deskripsi}
-                </p>
-              </Modal>
             </div>
           )}
 
