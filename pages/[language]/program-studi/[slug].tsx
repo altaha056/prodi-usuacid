@@ -9,10 +9,10 @@ import React, { useEffect, useState } from 'react';
 import Head from 'next/head';
 import sentences, { getKeyValue } from 'helpers/mapping-sentences';
 import checkLanguage, { selectLanguage } from 'helpers/check-language';
-import FacultiesModel, { FacultiesMaker } from '@/models/faculties';
 import axios from '@/config/sirenbang-axios';
 import LoadingSSO from '@/page-components/common/loading';
-import { Button, Modal } from 'antd';
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
 
 export interface Prodi {
   title: string;
@@ -93,12 +93,15 @@ export const getServerSideProps = async (
 const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
   const router = useRouter();
   const { language, slug } = router.query;
-  const [modal2Open, setModal2Open] = useState(false);
   const [objectModal, setObjectModal] = useState<KelompokKeilmuan>();
-  const munculPesan = (judul: KelompokKeilmuan) => {
+  const [modalSection, setModalSection] = useState<boolean>(false);
+  const [currentItem, setcurrentItem] = useState<any>();
+  const munculPesan = (judul: KelompokKeilmuan, i: any) => {
     setObjectModal(judul);
-    setModal2Open(true);
+    setcurrentItem(i);
+    console.log(i, judul);
   };
+  const [modalShow, setModalShow] = React.useState(false);
 
   return (
     <>
@@ -212,62 +215,59 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
           )}
 
           {prodiData && (
-            <div className="kelompok-keilmuan">
-              <h1>Kelompok Keilmuan</h1>
-              <div className="slider">
-                <div className="container-kelompok-keilmuan">
-                  {prodiData.content.kelompokKeilmuan.map((x, i) => (
-                    <div
-                      className="item-kelompok-keilmuan"
-                      key={i}
-                      onClick={() => munculPesan(x)}
-                    >
-                      <img src={x.image} alt="" />
-                      <p>{x.label}</p>
-                    </div>
-                  ))}
-
-                  <Modal
-                    centered
-                    open={modal2Open}
-                    onOk={() => setModal2Open(false)}
-                    onCancel={() => setModal2Open(false)}
-                    footer={[]}
-                  >
-                    <h1
-                      style={{
-                        fontSize: '24px',
-                        fontWeight: '600',
-                        textAlign: 'left',
-                      }}
-                    >
-                      {objectModal?.label}
-                    </h1>
-                    <img
-                      src={objectModal?.image}
-                      alt={objectModal?.label}
-                      style={{
-                        width: '100%',
-                        maxHeight: '150px',
-                        objectFit: 'cover',
-                        margin: '20px 0px',
-                        borderRadius: '10px',
-                      }}
-                    />
-                    <p
-                      style={{
-                        fontSize: '16px',
-                        fontWeight: '400',
-                        textAlign: 'justify',
-                      }}
-                    >
-                      {objectModal?.deskripsi}
-                    </p>
-                  </Modal>
+            <>
+              <div className="kelompok-keilmuan">
+                <h1>Kelompok Keilmuan</h1>
+                <div className="slider">
+                  <div className="container-kelompok-keilmuan">
+                    {prodiData.content.kelompokKeilmuan.map((x, i) => (
+                      <div
+                        className="item-kelompok-keilmuan item-keilmuan-active"
+                        key={i}
+                        onClick={() => {
+                          munculPesan(x, i);
+                          setModalShow(true);
+                        }}
+                      >
+                        <img src={x.image} alt="" />
+                        <p>{x.label}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
+            </>
           )}
+
+          {/* <Button variant="primary" onClick={() => setModalShow(true)}>
+            Launch vertically centered modal
+          </Button> */}
+
+          <Modal
+            show={modalShow}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            onHide={() => setModalShow(false)}
+          >
+            {objectModal && (
+              <>
+                <Modal.Header>
+                  <Modal.Title id="contained-modal-title-vcenter">
+                    {objectModal.label}
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <p>{objectModal.deskripsi}</p>
+                </Modal.Body>
+              </>
+            )}
+            <Modal.Footer>
+              <Button onClick={() => setModalShow(false)}>
+                {getKeyValue(sentences.tutup_section)(selectLanguage(language))}
+              </Button>
+            </Modal.Footer>
+          </Modal>
 
           {prodiData && (
             <div className="prodi">

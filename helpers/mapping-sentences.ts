@@ -3,6 +3,10 @@ const sentences = {
     id: 'Beranda',
     en: 'Home',
   },
+  tutup_section: {
+    id: 'Tutup',
+    en: 'Close',
+  },
   beranda_content: {
     id: 'BERANDA',
     en: 'HOME',
