@@ -96,12 +96,14 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
   const [objectModal, setObjectModal] = useState<KelompokKeilmuan>();
   const [modalSection, setModalSection] = useState<boolean>(false);
   const [currentItem, setcurrentItem] = useState<any>();
+  const [gambarSk, setgambarSk] = useState<any>();
   const munculPesan = (judul: KelompokKeilmuan, i: any) => {
     setObjectModal(judul);
     setcurrentItem(i);
     console.log(i, judul);
   };
   const [modalShow, setModalShow] = React.useState(false);
+  const [modalGambarSkShow, setModalGambarSkShow] = React.useState(false);
 
   return (
     <>
@@ -155,13 +157,14 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
                         </h1>
                         <p>{prodiData.content.akreditasiKodeSk}</p>
                       </div>
-                      <a
-                        href={prodiData.content.gambarSk}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <div
+                        onClick={() => {
+                          setModalGambarSkShow(true);
+                          setgambarSk(prodiData.content.gambarSk);
+                        }}
                       >
                         <img src="/images/prodi/link.svg" className="link" />
-                      </a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -242,6 +245,36 @@ const ProgramStudiDetailPage: React.ReactNode = ({ prodiData }: Props) => {
           {/* <Button variant="primary" onClick={() => setModalShow(true)}>
             Launch vertically centered modal
           </Button> */}
+
+          <Modal
+            show={modalGambarSkShow}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+            onHide={() => setModalGambarSkShow(false)}
+          >
+            {gambarSk && (
+              <>
+                <Modal.Header>
+                  <Modal.Title id="contained-modal-title-vcenter">
+                    SK Akreditasi {prodiData.title}
+                  </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <img
+                    src={gambarSk}
+                    alt="sk akreditasi program studi"
+                    style={{ width: '100%' }}
+                  />
+                </Modal.Body>
+              </>
+            )}
+            <Modal.Footer>
+              <Button onClick={() => setModalGambarSkShow(false)}>
+                {getKeyValue(sentences.tutup_section)(selectLanguage(language))}
+              </Button>
+            </Modal.Footer>
+          </Modal>
 
           <Modal
             show={modalShow}
